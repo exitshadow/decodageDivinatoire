@@ -1,0 +1,45 @@
+Classe Carte
+
+    nom de l’arcane:        string
+    numéro de l’arcane:     string
+    type de l’arcane:       string
+
+    textes tirages en croix:    objet
+            passé:          string
+            présent:        string
+            conseil:        string
+            réalisation:    string
+
+    image:                  string (url)
+
+
+Objet Deck
+    -> json qui respecte la structure de la classe Carte avec les 22 arcanes majeurs
+
+
+
+PSEUDOCODE DES FONCTIONS
+
+MélangerCartes()
+{
+    for i = 0; i < tailleListe; i++
+    {
+        copie la liste des cartes dans l’ordre
+        référence une liste vide existante
+        prend un index au hasard dans la liste
+        trouve la carte correspondante à l’index
+        ajoute la carte dans la nouvelle liste
+        supprime la carte de l’ancienne
+    }
+}
+
+ChoisirCarte()
+{
+    sélectionne la carte à l’index pointé par le clic
+    envoie la référence
+}
+
+PlacerCarte()
+{
+    
+}
