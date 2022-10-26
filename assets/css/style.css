@@ -143,6 +143,11 @@ table {
 }
 
 /****************** Page Index *******************/
+
+body {
+    background-color: #13192c;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -150,13 +155,14 @@ table {
 
 h1 {
     display: flex;
-    justify-content: center;
+    justify-content: center
 }
 
 button {
-
-    width: 20px;
+    display: flex;
+    width: 50px;
     height: 20px;
+
 }
 
 
@@ -177,15 +183,23 @@ button {
     transition: all 0.5s;
 }
 
-#card3{}
-#card1{top: 230px;
-    left: 0;}
-#card2{top: 230px;
-    right: 0;}
-#card4{top: 460px;
+#card3 {}
+
+#card1 {
+    top: 230px;
+    left: 0;
 }
 
-.card.visible{
+#card2 {
+    top: 230px;
+    right: 0;
+}
+
+#card4 {
+    top: 460px;
+}
+
+.card.visible {
     transform: rotateY(180deg);
 }
 
