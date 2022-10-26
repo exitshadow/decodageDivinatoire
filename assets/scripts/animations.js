@@ -3,7 +3,7 @@
 //Start Button
 
 /*---------Main---------*/
-//Shuffle deck
+//Shuffle deck https://codepen.io/mburakerman/pen/PoomrjG
 // var cardsSelection = document.querySelectorAll(".card");        // !!! only cards in card-selector
 
 // [...cardsSelection].forEach((card) => {
@@ -16,7 +16,7 @@
 //     };
 // });
 
-// //Stack deck
+// Stack deck https://codepen.io/mburakerman/pen/PoomrjG
 
 // [...cardsSelection].forEach((card) => {
 //     card.addEventListener('stackDeck', function () {        //!!! when done selecting
@@ -27,6 +27,32 @@
 //         i * 150);
 //     };
 // });
+
+//#region Shuffle and stack animation : 
+// $('.stack').click(function() {
+
+//     $(".card").each(function(card) {
+
+//       setTimeout(function() {
+//         $(".card").eq(card).attr("class", "card");
+//       }, card * 150)
+
+//     });
+
+//   });
+
+//   $('.spread').click(function() {
+
+//     $(".card").each(function(card) {
+
+//       setTimeout(function() {
+//         $(".card").eq(card).attr("class", "card ani" + card);
+//       }, card * 150)
+
+//     });
+
+//   });
+//#endregion
 
 //Flip selected cards on click
 var flipCards = document.querySelectorAll('.card');
