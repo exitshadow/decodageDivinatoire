@@ -28,16 +28,49 @@ for (let i = 0; i < shuffledDeck.length; i++) {
     selectionArea.appendChild(cardElement);
 }
 
+let pickedCardsPlaceholders = document.getElementsByClassName("card");
 cardElements.forEach(function(i) {
     i.addEventListener("click", function(e) {
         pickCard(e.target.value);
-        //alert(e.target.value);
     });
 });
+
 
 //#endregion
 
 //#region METHODS
+
+function shuffle(deck) {
+    // declare placeholder
+    let shuffled = [];
+    
+    // copies values in new object
+    let copy = [];
+    for (let i = 0; i < deck.length; i++) {
+        copy.push(deck[i]);
+    }
+    
+    // shuffles and copies
+    for (let i = 0; i < deck.length; i++) {
+        let rng = Math.floor(Math.random() * copy.length);
+        shuffled.push(copy[rng]);
+        copy.splice(rng, 1);
+    }
+    return shuffled;
+}
+
+function pickCard(value) {
+    if (cardsPicked.length <= MAXPICK - 1) {
+        // pick
+        cardsPicked.push(shuffledDeck[value]);
+        cardElements[value].remove();
+        console.log(shuffledDeck[value]);
+
+        pickedCardsPlaceholders[cardsPicked.length-1].className += " picked";
+    }
+}
+
+//#endregion
 
 function init(){
     loadJSON(function(response){
@@ -57,32 +90,3 @@ function loadJSON(callback) {
     };
     xobj.send(null);
 }
-
-function shuffle(deck) {
-    // declare placeholder
-    let shuffled = [];
-
-    // copies values in new object
-    let copy = [];
-    for (let i = 0; i < deck.length; i++) {
-        copy.push(deck[i]);
-    }
-
-    // shuffles and copies
-    for (let i = 0; i < deck.length; i++) {
-        let rng = Math.floor(Math.random() * copy.length);
-        shuffled.push(copy[rng]);
-        copy.splice(rng, 1);
-    }
-    return shuffled;
-}
-
-function pickCard(value) {
-    if (cardsPicked.length <= MAXPICK - 1) {
-        cardsPicked.push(shuffledDeck[value]);
-        cardElements[value].remove();
-        console.log(shuffledDeck[value]);
-    }
-}
-
-//#endregion
