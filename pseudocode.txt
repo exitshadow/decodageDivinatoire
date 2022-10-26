@@ -20,26 +20,42 @@ Objet Deck
 
 PSEUDOCODE DES FONCTIONS
 
-MélangerCartes()
+MélangerCartes(listeRéférence)
 {
+    copie listeRéférence
+
     for i = 0; i < tailleListe; i++
     {
-        copie la liste des cartes dans l’ordre
         référence une liste vide existante
         prend un index au hasard dans la liste
         trouve la carte correspondante à l’index
         ajoute la carte dans la nouvelle liste
         supprime la carte de l’ancienne
     }
+
+    return listeDestination
 }
 
-ChoisirCarte()
+AfficherCartesAChoisir(listeCartes)
 {
-    sélectionne la carte à l’index pointé par le clic
-    envoie la référence
+    for i = 0; listesCartes; i++
+    {
+        crée un nouvel objet thumbnail carte cliquable
+        append dans le HTML
+        // déterminer quels objets HTML/CSS pour que ce soit joli et cohérent
+    }
+}
+
+ChoisirCarte(carteCliquable)
+{
+    if (pas toutes les cartes sélectionnées)
+    {
+        sélectionne la carteCliquable à l’index pointé par le clic
+        envoie la référence
+    }
 }
 
 PlacerCarte()
 {
-    
+
 }
