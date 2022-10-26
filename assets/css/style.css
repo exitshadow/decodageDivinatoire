@@ -148,7 +148,7 @@ body {}
     height: 200px;
     /* border: 1px black solid; */
     margin: 15px;
-    position: relative;
+    position: absolute;
     transform-style: preserve-3d;
     transition: all 0.5s;
 }
