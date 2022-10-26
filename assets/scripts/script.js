@@ -7,12 +7,16 @@ let shuffledDeck;   // contenant qui va recevoir toutes les cartes mélangées
 let pickedCardsPlaceholders = document.getElementsByClassName("card");
 let selectionArea = document.getElementById("selection-area");
 
+console.log(pickedCardsPlaceholders);
+
 
 const MAXPICK = 4;          // nombre maximum de cartes choisies
 let cardsPicked = [];       // liste des cartes tirées par le joueur, objet carte
+let cardsTurned = [];       // liste des cartes tournées par le joueur, élément DOM
 let cardElements = [];      // liste des cartes tirées par le joueur, element DOM
 
 let isDrawn = false;        // état de jeu
+let turnCounter = 0;
 
 // reinjection de contenus
 let domCardsPickedNames;    // objet DOM  pour l’injection des cartes sélectionnées
@@ -40,12 +44,12 @@ cardElements.forEach(function(i) {
     });
 });
 
-
-pickedCardsPlaceholders.forEach(function(i) {
-    i.addEventListener("click", function(e) {
-        turnCard(e.target.value);
+for (let i = 0; i < pickedCardsPlaceholders.length; i++) {
+    pickedCardsPlaceholders[i].addEventListener("click", function(e) {
+        turnCard(e.target.parentElement);
     });
-});
+}
+
 
 //#endregion
 
@@ -77,6 +81,19 @@ function pickCard(value) {
         pickedCardsPlaceholders[cardsPicked.length-1].className += " picked";
     }
     else isDrawn = true;
+    console.log(isDrawn);
+}
+
+function turnCard(card) {
+    console.log(turnCounter);
+    // check if card hasn’t already been turned
+    // turncounter becomes useless
+    if (isDrawn && turnCounter <= MAXPICK)
+    {
+        cardsTurned.push(card);
+        card.className += " turned";
+        turnCounter++;
+    }
 }
 
 //#endregion
