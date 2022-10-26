@@ -172,12 +172,20 @@ button {
     height: 200px;
     /* border: 1px black solid; */
     margin: 15px;
-    position: relative;
+    position: absolute;
     transform-style: preserve-3d;
     transition: all 0.5s;
 }
 
-.card.visible {
+#card3{}
+#card1{top: 230px;
+    left: 0;}
+#card2{top: 230px;
+    right: 0;}
+#card4{top: 460px;
+}
+
+.card.visible{
     transform: rotateY(180deg);
 }
 
