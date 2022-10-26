@@ -3,10 +3,18 @@
 let referenceDeck;  // injecter tous les arcanes depuis le json
 let shuffledDeck;   // contenant qui va recevoir toutes les cartes mélangées
 
-const MAXPICK = 4;  // nombre maximum de cartes choisies
-let cardsPicked = [];    // liste des cartes tirées par le jouer.
-                    // sert aussi de compteur pour tester contre MAXPICK
+// selection des DOM existants
+let pickedCardsPlaceholders = document.getElementsByClassName("card");
+let selectionArea = document.getElementById("selection-area");
 
+
+const MAXPICK = 4;          // nombre maximum de cartes choisies
+let cardsPicked = [];       // liste des cartes tirées par le joueur, objet carte
+let cardElements = [];      // liste des cartes tirées par le joueur, element DOM
+
+let isDrawn = false;        // état de jeu
+
+// reinjection de contenus
 let domCardsPickedNames;    // objet DOM  pour l’injection des cartes sélectionnées
 let domResultReading;       // objet DOM pour l’injection du texte des résultats
 
@@ -17,8 +25,6 @@ let domResultReading;       // objet DOM pour l’injection du texte des résult
 referenceDeck = arcanae.arcane; // à remplacer avec un vrai lecteur JSON
 shuffledDeck = shuffle(referenceDeck);
 
-let selectionArea = document.getElementById("selection-area");
-let cardElements = [];
 for (let i = 0; i < shuffledDeck.length; i++) {
     let cardElement = document.createElement("button");
     cardElement.setAttribute("id", `card-${i}}`);
@@ -28,13 +34,18 @@ for (let i = 0; i < shuffledDeck.length; i++) {
     selectionArea.appendChild(cardElement);
 }
 
-let pickedCardsPlaceholders = document.getElementsByClassName("card");
 cardElements.forEach(function(i) {
     i.addEventListener("click", function(e) {
         pickCard(e.target.value);
     });
 });
 
+
+pickedCardsPlaceholders.forEach(function(i) {
+    i.addEventListener("click", function(e) {
+        turnCard(e.target.value);
+    });
+});
 
 //#endregion
 
@@ -61,13 +72,11 @@ function shuffle(deck) {
 
 function pickCard(value) {
     if (cardsPicked.length <= MAXPICK - 1) {
-        // pick
         cardsPicked.push(shuffledDeck[value]);
         cardElements[value].remove();
-        console.log(shuffledDeck[value]);
-
         pickedCardsPlaceholders[cardsPicked.length-1].className += " picked";
     }
+    else isDrawn = true;
 }
 
 //#endregion
