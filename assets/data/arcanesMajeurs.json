@@ -1,0 +1,313 @@
+{
+    "arcane": [
+ 
+       {
+          "nom": "Le Bateleur",
+          "numero": 1,
+          "type": "Majeur",
+          "url": "./urltodefine",
+          "significationTirageCroix":
+          {
+            "passé": "texte ici",
+            "présent": "texte ici",
+            "conseil": "texte ici",
+            "futur": "texte ici"
+          }
+       },
+ 
+       {
+        "nom": "La Papesse",
+        "numero": 2,
+        "type": "Majeur",
+        "url": "./urltodefine",
+        "significationTirageCroix":
+        {
+          "passé": "texte ici",
+          "présent": "texte ici",
+          "conseil": "texte ici",
+          "futur": "texte ici"
+        }
+     },
+
+     {
+        "nom": "L’Impératrice",
+        "numero": 3,
+        "type": "Majeur",
+        "url": "./urltodefine",
+        "significationTirageCroix":
+        {
+          "passé": "texte ici",
+          "présent": "texte ici",
+          "conseil": "texte ici",
+          "futur": "texte ici"
+        }
+     },
+
+     {
+        "nom": "L’Empereur",
+        "numero": 4,
+        "type": "Majeur",
+        "url": "./urltodefine",
+        "significationTirageCroix":
+        {
+          "passé": "texte ici",
+          "présent": "texte ici",
+          "conseil": "texte ici",
+          "futur": "texte ici"
+        }
+     },
+
+     {
+        "nom": "Le Pape",
+        "numero": 5,
+        "type": "Majeur",
+        "url": "./urltodefine",
+        "significationTirageCroix":
+        {
+          "passé": "texte ici",
+          "présent": "texte ici",
+          "conseil": "texte ici",
+          "futur": "texte ici"
+        }
+     },
+
+     {
+        "nom": "L’Amoureux",
+        "numero": 6,
+        "type": "Majeur",
+        "url": "./urltodefine",
+        "significationTirageCroix":
+        {
+          "passé": "texte ici",
+          "présent": "texte ici",
+          "conseil": "texte ici",
+          "futur": "texte ici"
+        }
+     },
+
+     {
+        "nom": "Le Chariot",
+        "numero": 7,
+        "type": "Majeur",
+        "url": "./urltodefine",
+        "significationTirageCroix":
+        {
+          "passé": "texte ici",
+          "présent": "texte ici",
+          "conseil": "texte ici",
+          "futur": "texte ici"
+        }
+     },
+
+     {
+        "nom": "La Justice",
+        "numero": 8,
+        "type": "Majeur",
+        "url": "./urltodefine",
+        "significationTirageCroix":
+        {
+          "passé": "texte ici",
+          "présent": "texte ici",
+          "conseil": "texte ici",
+          "futur": "texte ici"
+        }
+     },
+
+     {
+        "nom": "L’Hermite",
+        "numero": 9,
+        "type": "Majeur",
+        "url": "./urltodefine",
+        "significationTirageCroix":
+        {
+          "passé": "texte ici",
+          "présent": "texte ici",
+          "conseil": "texte ici",
+          "futur": "texte ici"
+        }
+     },
+
+     {
+        "nom": "La Roue de Fortune",
+        "numero": 10,
+        "type": "Majeur",
+        "url": "./urltodefine",
+        "significationTirageCroix":
+        {
+          "passé": "texte ici",
+          "présent": "texte ici",
+          "conseil": "texte ici",
+          "futur": "texte ici"
+        }
+     },
+
+     {
+        "nom": "La Force",
+        "numero": 11,
+        "type": "Majeur",
+        "url": "./urltodefine",
+        "significationTirageCroix":
+        {
+          "passé": "texte ici",
+          "présent": "texte ici",
+          "conseil": "texte ici",
+          "futur": "texte ici"
+        }
+     },
+
+     {
+        "nom": "Le Pendu",
+        "numero": 12,
+        "type": "Majeur",
+        "url": "./urltodefine",
+        "significationTirageCroix":
+        {
+          "passé": "texte ici",
+          "présent": "texte ici",
+          "conseil": "texte ici",
+          "futur": "texte ici"
+        }
+     },
+
+     {
+        "nom": "L’Arcane Sans Nom",
+        "numero": 13,
+        "type": "Majeur",
+        "url": "./urltodefine",
+        "significationTirageCroix":
+        {
+          "passé": "texte ici",
+          "présent": "texte ici",
+          "conseil": "texte ici",
+          "futur": "texte ici"
+        }
+     },
+
+     {
+        "nom": "La Tempérance",
+        "numero": 14,
+        "type": "Majeur",
+        "url": "./urltodefine",
+        "significationTirageCroix":
+        {
+          "passé": "texte ici",
+          "présent": "texte ici",
+          "conseil": "texte ici",
+          "futur": "texte ici"
+        }
+     },
+
+     {
+        "nom": "Le Dable",
+        "numero": 15,
+        "type": "Majeur",
+        "url": "./urltodefine",
+        "significationTirageCroix":
+        {
+          "passé": "texte ici",
+          "présent": "texte ici",
+          "conseil": "texte ici",
+          "futur": "texte ici"
+        }
+     },
+
+     {
+        "nom": "La Maison-Dieu",
+        "numero": 16,
+        "type": "Majeur",
+        "url": "./urltodefine",
+        "significationTirageCroix":
+        {
+          "passé": "texte ici",
+          "présent": "texte ici",
+          "conseil": "texte ici",
+          "futur": "texte ici"
+        }
+     },
+
+     {
+        "nom": "L’Étoile",
+        "numero": 17,
+        "type": "Majeur",
+        "url": "./urltodefine",
+        "significationTirageCroix":
+        {
+          "passé": "texte ici",
+          "présent": "texte ici",
+          "conseil": "texte ici",
+          "futur": "texte ici"
+        }
+     },
+
+     {
+        "nom": "La Lune",
+        "numero": 18,
+        "type": "Majeur",
+        "url": "./urltodefine",
+        "significationTirageCroix":
+        {
+          "passé": "texte ici",
+          "présent": "texte ici",
+          "conseil": "texte ici",
+          "futur": "texte ici"
+        }
+     },
+
+     {
+        "nom": "Le Soleil",
+        "numero": 19,
+        "type": "Majeur",
+        "url": "./urltodefine",
+        "significationTirageCroix":
+        {
+          "passé": "texte ici",
+          "présent": "texte ici",
+          "conseil": "texte ici",
+          "futur": "texte ici"
+        }
+     },
+
+     {
+        "nom": "Le Jugement",
+        "numero": 20,
+        "type": "Majeur",
+        "url": "./urltodefine",
+        "significationTirageCroix":
+        {
+          "passé": "texte ici",
+          "présent": "texte ici",
+          "conseil": "texte ici",
+          "futur": "texte ici"
+        }
+     },
+     
+     {
+        "nom": "Le Monde",
+        "numero": 21,
+        "type": "Majeur",
+        "url": "./urltodefine",
+        "significationTirageCroix":
+        {
+          "passé": "texte ici",
+          "présent": "texte ici",
+          "conseil": "texte ici",
+          "futur": "texte ici"
+        }
+     },
+
+     {
+        "nom": "Le Mât",
+        "numero": 22,
+        "type": "Majeur",
+        "url": "./urltodefine",
+        "significationTirageCroix":
+        {
+          "passé": "texte ici",
+          "présent": "texte ici",
+          "conseil": "texte ici",
+          "futur": "texte ici"
+        }
+     }
+
+    ]
+ }
