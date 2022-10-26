@@ -134,7 +134,7 @@ table {
     border-spacing: 0;
 }
 
-body {}
+
 
 /****************** Page Index *******************/
 
@@ -153,6 +153,7 @@ h1 {
     display: flex;
 }
 
+
 /*************** DIV CARDS ****************/
 #board {
     display: flex;
@@ -161,8 +162,8 @@ h1 {
 }
 
 .card {
-    width: 150px;
-    height: 200px;
+    width: 100px;
+    height: 150px;
     /* border: 1px black solid; */
     margin: 15px;
     position: absolute;
@@ -170,12 +171,14 @@ h1 {
     transition: all 0.5s;
 }
 
-#card3{}
-#card1{top: 230px;
-    left: 0;}
-#card2{top: 230px;
-    right: 0;}
-#card4{top: 460px;
+#card3{
+    top: 55px;
+}
+#card1{top: 168px;
+    left: 19px;}
+#card2{top: 168px;
+    right: 19px;}
+#card4{top: 285px;
 }
 
 .card.visible{
