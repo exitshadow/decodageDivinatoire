@@ -136,14 +136,31 @@ table {
 
 body {}
 
-#board{
+/****************** Page Index *******************/
+
+@media (max-width: 390px) {
+    body {
+        width: 100%;
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    display: flex;
+}
+
+/*************** DIV CARDS ****************/
+#board {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    
 }
 
-.card{
+.card {
     width: 150px;
     height: 200px;
     /* border: 1px black solid; */
@@ -164,6 +181,7 @@ body {}
 .card.visible{
     transform: rotateY(180deg);
 }
+
 /* .card.nonVisible{
     transform: rotateY(180deg);
 } */
@@ -171,8 +189,8 @@ body {}
     transform: rotateY(180deg);
 } */
 
-.front{
-   
+.front {
+
     position: absolute;
     width: 100%;
     height: 100%;
@@ -184,12 +202,9 @@ body {}
     background-position: center center;
     background-color: green;
     cursor: not-allowed;
-
-    
-    
 }
 
-.back{
+.back {
     background-color: green;
     position: absolute;
     width: 100%;
@@ -198,5 +213,4 @@ body {}
     backface-visibility: hidden;
     cursor: pointer;
     border: 1px solid black;
-
 }

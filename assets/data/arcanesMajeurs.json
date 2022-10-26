@@ -8,10 +8,10 @@
           "url": "./urltodefine",
           "signification":
           {
-            "past": "texte ici",
-            "present": "texte ici",
-            "advice": "texte ici",
-            "future": "texte ici"
+            "past": "Une nouvelle opportunité concernant un projet, une relation vous a permis de vous lancer dans un nouveau départ, une nouvelle vie.",
+            "present": "Vous êtes actuellement dans un changement de vie important, vous avez mis en œuvre toutes les capacités pour atteindre vos objectifs.",
+            "advice": "C’est le moment parfait pour vous engager dans un changement de vie importante. Vous avez toutes les capacités nécessaires pour atteindre vos objectifs.",
+            "future": "Une construction solide et durable dans le temps se présente à vous, vos décisions seront réfléchies et vos engagements stables."
           }
        },
  
@@ -22,10 +22,10 @@
         "url": "./urltodefine",
         "signification":
         {
-          "past": "texte ici",
-          "present": "texte ici",
-          "advice": "texte ici",
-          "future": "texte ici"
+          "past": "Un moment d’observation dans la patience et/ou isolement ont été nécessaire pour trouver de la paix et plus de richesse intérieure en vous pour mettre en place une nouvelle étape de vie.",
+          "present": "Vous êtes actuellement dans une période d’isolement et d’attente, cette prise de distance et votre sens de l’observation sont nécessaires pour vous amener plus de paix et de richesse intérieure en vous.",
+          "advice": "La patience et la bienveillance envers vous-même et les autres sont conseillés en cette période, isolez-vous si nécessaire. Ce moment d’observation et d’apprentissage vous apportera paix et richesse intérieure.",
+          "future": "Votre patience porte ses fruits, la paix s’installe et votre richesse intérieure a grandement évoluée. Votre vie se débloque vers une nouvelle étape de vie féconde."
         }
      },
 
