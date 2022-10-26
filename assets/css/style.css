@@ -134,10 +134,61 @@ table {
     border-spacing: 0;
 }
 
+body {}
 
-/****************** Page Index *******************/
-
-.container {
+#board{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.card{
+    width: 150px;
+    height: 200px;
+    /* border: 1px black solid; */
+    margin: 15px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.5s;
+}
+
+.card.visible{
+    transform: rotateY(180deg);
+}
+/* .card.nonVisible{
+    transform: rotateY(180deg);
+} */
+/* .card:hover{
+    transform: rotateY(180deg);
+} */
+
+.front{
+   
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: green;
+    cursor: not-allowed;
+
+    
+    
+}
+
+.back{
+    background-color: green;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    cursor: pointer;
+    border: 1px solid black;
+
 }
