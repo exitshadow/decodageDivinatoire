@@ -17,6 +17,15 @@ let domResultReading;       // objet DOM pour l’injection du texte des résult
 referenceDeck = arcanae.arcane; // à remplacer avec un vrai lecteur JSON
 shuffledDeck = shuffle(referenceDeck);
 
+let selectionArea = document.getElementById("selection-area");
+for (let i = 0; i < shuffledDeck.length; i++) {
+    let card = document.createElement("button");
+    card.setAttribute("id", `card-${i}}`);
+    card.setAttribute("class", "cards-position");
+    card.setAttribute("value", `${shuffledDeck[i].number}`);
+    selectionArea.appendChild(card);
+}
+
 //#endregion
 
 //#region METHODS
