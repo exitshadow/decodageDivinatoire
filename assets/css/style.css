@@ -285,6 +285,13 @@ button {
     height: 200px;
 }
 
+#selection-area{
+    display: flex;
+    position: absolute;
+    bottom: 10%;
+}
+
+
 /* Fin de la div card */
 
 .container-application {
@@ -297,3 +304,4 @@ button {
     background-color: red;
     color: red;
 }
+
