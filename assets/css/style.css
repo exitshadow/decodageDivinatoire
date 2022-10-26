@@ -192,28 +192,30 @@ a {
     text-decoration: none;
     text-transform: uppercase;
     font-family: "Montserrat-Bold";
-    padding: 0.5rem;
-
-
+    padding-left: 0.2rem;
+    padding-top: 0.5rem;
+    color: #13192c;
 }
 
 h1 {
     display: flex;
-    color: white;
+    color: #ffdb71;
     font-family: "Crima";
     font-size: 2rem;
 }
 
 button {
     display: flex;
-    width: 75px;
-    height: 32px;
+    width: 80px;
+    height: 40px;
     margin-top: 2rem;
-    border-radius: 7px;
+    border-radius: 25px;
+    background-color: #ffffff80;
 }
 
+/*************** PAGE APPLICATION **********/
+/* Div cards */
 
-/*************** DIV CARDS ****************/
 #board {
     display: flex;
     flex-wrap: wrap;
@@ -252,13 +254,6 @@ button {
     transform: rotateY(180deg);
 }
 
-/* .card.nonVisible{
-    transform: rotateY(180deg);
-} */
-/* .card:hover{
-    transform: rotateY(180deg);
-} */
-
 .front {
 
     position: absolute;
@@ -288,6 +283,13 @@ button {
 .cards-position {
     width: 150px;
     height: 200px;
+}
+
+/* Fin de la div card */
+
+.container-application {
+    display: flex;
+    flex-direction: ;
 }
 
 /* règles dynamiques pour changer l’arrière des cartes séléctionnées */
