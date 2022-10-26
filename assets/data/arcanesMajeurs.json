@@ -1,0 +1,61 @@
+{
+    "arcaneMajeur": [
+ 
+       {
+          "nom": "Bateleur",
+          "numero": 1,
+          "type": "Majeur",
+          "url": "./urltodefine",
+          "significationTirageCroix":
+          {
+            "passé": "texte ici",
+            "présent": "texte ici",
+            "conseil": "texte ici",
+            "futur": "texte ici"
+          }
+       },
+ 
+       {
+        "nom": "Papesse",
+        "numero": 2,
+        "type": "Majeur",
+        "url": "./urltodefine",
+        "significationTirageCroix":
+        {
+          "passé": "texte ici",
+          "présent": "texte ici",
+          "conseil": "texte ici",
+          "futur": "texte ici"
+        }
+     },
+
+     {
+        "nom": "Impératrice",
+        "numero": 3,
+        "type": "Majeur",
+        "url": "./urltodefine",
+        "significationTirageCroix":
+        {
+          "passé": "texte ici",
+          "présent": "texte ici",
+          "conseil": "texte ici",
+          "futur": "texte ici"
+        }
+     },
+
+     {
+        "nom": "Empereur",
+        "numero": 2,
+        "type": "Majeur",
+        "url": "./urltodefine",
+        "significationTirageCroix":
+        {
+          "passé": "texte ici",
+          "présent": "texte ici",
+          "conseil": "texte ici",
+          "futur": "texte ici"
+        }
+     }
+ 
+    ]
+ }
