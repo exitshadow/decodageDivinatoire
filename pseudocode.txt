@@ -71,6 +71,6 @@ PlacerCarte()
 RévélerJeu() // fonction de callback sur le bouton
 {
     ouvre la nouvelle page
-    injecte l’objet CartesTirées
-    injecte l’objet Résultat
+    injecte l’objet domCartesTirées
+    injecte l’objet domRésultat
 }
