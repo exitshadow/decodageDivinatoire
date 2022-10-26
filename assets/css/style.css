@@ -134,4 +134,10 @@ table {
     border-spacing: 0;
 }
 
-body {}
+
+/****************** Page Index *******************/
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
