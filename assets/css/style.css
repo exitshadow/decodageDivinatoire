@@ -137,7 +137,17 @@ table {
 
 /****************** Page Index *******************/
 
+@media (max-width: 390px) {
+    body {
+        width: 100%;
+    }
+}
+
 .container {
     display: flex;
     flex-direction: column;
+}
+
+h1 {
+    display: flex;
 }
