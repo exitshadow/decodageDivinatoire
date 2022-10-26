@@ -193,15 +193,6 @@ button {
 #card4{top: 285px;
 }
 
-#card2 {
-    top: 230px;
-    right: 0;
-}
-
-#card4 {
-    top: 460px;
-}
-
 .card.visible {
     transform: rotateY(180deg);
 }
