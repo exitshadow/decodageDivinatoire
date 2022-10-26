@@ -46,16 +46,31 @@ AfficherCartesAChoisir(listeCartes)
     }
 }
 
-ChoisirCarte(carteCliquable)
+ChoisirCarte(carteCliquable) // fonction de callback sur un bouton
 {
     if (pas toutes les cartes sélectionnées)
     {
         sélectionne la carteCliquable à l’index pointé par le clic
         envoie la référence
+        PlacerCarte()
     }
 }
 
 PlacerCarte()
 {
+    référence compteur++
+    si (compteur == 4) toutesCartesSélectionnées = true
+    positionne carte à la place assignée au compteur
+    cherche la carte correspondate à la place assignée
+    référence le nom et le numéro
+    append le nom et le numéro dans un objet domHTML CartesTirées
+    référence le texte correspondant à sa case
+    append le texte dans un objet domHTML Résultat
+}
 
+RévélerJeu() // fonction de callback sur le bouton
+{
+    ouvre la nouvelle page
+    injecte l’objet CartesTirées
+    injecte l’objet Résultat
 }
