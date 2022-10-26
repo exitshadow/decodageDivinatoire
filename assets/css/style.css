@@ -153,11 +153,11 @@ h1 {
     display: flex;
 }
 
-=======#board {
+/*************** DIV CARDS ****************/
+#board {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-
 }
 
 .card {
@@ -194,9 +194,6 @@ h1 {
     background-position: center center;
     background-color: green;
     cursor: not-allowed;
-
-
-
 }
 
 .back {
@@ -208,5 +205,4 @@ h1 {
     backface-visibility: hidden;
     cursor: pointer;
     border: 1px solid black;
-
 }
