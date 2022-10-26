@@ -36,10 +36,10 @@
         "url": "./urltodefine",
         "signification":
         {
-          "past": "texte ici",
-          "present": "texte ici",
-          "advice": "texte ici",
-          "future": "texte ici"
+          "past": "Grâce à votre intelligence et votre observation des situations, vous avez su faire les bons choix dans le passé. Vous avez appris à être autonome et indépendante.",
+          "present": "Vous êtes puissante et respectée, vous savez ce que vous voulez et suivez votre intuition car il vous guide à faire les bons choix sur votre chemin de vie. Vous apprenez à être autonome et indépendante.",
+          "advice": "Votre intelligence et votre savoir vous permettent d’observer les situations pour faire les choix les plus adapté à votre chemin de vie. Votre intuition ne se trompe pas, faites-vous confiance !",
+          "future": "La confiance que vous donnez à votre intuition, vous mène à faire les choix les plus judicieux pour votre avenir. Vous avez le respect des autres et l’intelligence nécessaire pour atteindre vos objectifs. Vous êtes puissante !"
         }
      },
 
@@ -50,10 +50,10 @@
         "url": "./urltodefine",
         "signification":
         {
-          "past": "texte ici",
-          "present": "texte ici",
-          "advice": "texte ici",
-          "future": "texte ici"
+          "past": "Grâce à votre volonté et votre détermination, vous avez su vous imposer pour atteindre vos objectifs. Vos actions ont porté du succès dans tous les domaines.",
+          "present": "Vous êtes dans la réalisation de vos projets et porter vos batailles au succès, vous tirez les situations à votre avantage grâce à votre détermination et votre sens de la stratégie.",
+          "advice": "Un conseil avisé pourrait vous aider à atteindre vos objectifs, attention à l’entêtement ! La préparation de vos actions et la persévérance seront vos atouts durant cette période.",
+          "future": "Un projet solide et stable se met en place, vous avez su prendre votre place avec détermination. Il n’y a plus d’attente dans la réalisation de tous vos projets. Vous êtes puissant et allez où vous le voulez."
         }
      },
 

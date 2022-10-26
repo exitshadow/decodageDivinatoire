@@ -5,7 +5,15 @@
 /*---------Main---------*/
 //Shuffle deck
 //Spread deck
-//Card hover ---> CSS
+//Flip card
+var cards = document.querySelectorAll('.card');
+
+[...cards].forEach((card) => {
+    card.addEventListener('click', function () {
+        card.classList.toggle('is-flipped');
+    });
+});
+
 //Slide card into designated position
 //Reverse spread and pile deck
 
