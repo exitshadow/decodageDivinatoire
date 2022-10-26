@@ -134,9 +134,7 @@ table {
     border-spacing: 0;
 }
 
-body {}
 
-/****************** Page Index *******************/
 
 @media (max-width: 390px) {
     body {
@@ -144,6 +142,7 @@ body {}
     }
 }
 
+/****************** Page Index *******************/
 .container {
     display: flex;
     flex-direction: column;
@@ -151,7 +150,15 @@ body {}
 
 h1 {
     display: flex;
+    justify-content: center;
 }
+
+button {
+
+    width: 20px;
+    height: 20px;
+}
+
 
 /*************** DIV CARDS ****************/
 #board {
@@ -205,4 +212,9 @@ h1 {
     backface-visibility: hidden;
     cursor: pointer;
     border: 1px solid black;
+}
+
+.cards-position {
+    width: 150px;
+    height: 200px;
 }
