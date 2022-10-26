@@ -1,0 +1,76 @@
+Classe Carte
+
+    nom de l’arcane:        string
+    numéro de l’arcane:     string
+    type de l’arcane:       string
+
+    textes tirages en croix:    objet
+            passé:          string
+            présent:        string
+            conseil:        string
+            réalisation:    string
+
+    image:                  string (url)
+
+
+Objet Deck
+    -> json qui respecte la structure de la classe Carte avec les 22 arcanes majeurs
+
+
+
+PSEUDOCODE DES FONCTIONS
+
+MélangerCartes(listeRéférence)
+{
+    copie listeRéférence
+
+    for i = 0; i < tailleListe; i++
+    {
+        référence une liste vide existante
+        prend un index au hasard dans la liste
+        trouve la carte correspondante à l’index
+        ajoute la carte dans la nouvelle liste
+        supprime la carte de l’ancienne
+    }
+
+    return listeDestination
+}
+
+AfficherCartesAChoisir(listeCartes)
+{
+    for i = 0; listesCartes; i++
+    {
+        crée un nouvel objet thumbnail carte cliquable
+        append dans le HTML
+        // déterminer quels objets HTML/CSS pour que ce soit joli et cohérent
+    }
+}
+
+ChoisirCarte(carteCliquable) // fonction de callback sur un bouton
+{
+    if (pas toutes les cartes sélectionnées)
+    {
+        sélectionne la carteCliquable à l’index pointé par le clic
+        envoie la référence
+        PlacerCarte()
+    }
+}
+
+PlacerCarte()
+{
+    référence compteur++
+    si (compteur == 4) toutesCartesSélectionnées = true
+    positionne carte à la place assignée au compteur
+    cherche la carte correspondate à la place assignée
+    référence le nom et le numéro
+    append le nom et le numéro dans un objet domHTML CartesTirées
+    référence le texte correspondant à sa case
+    append le texte dans un objet domHTML Résultat
+}
+
+RévélerJeu() // fonction de callback sur le bouton
+{
+    ouvre la nouvelle page
+    injecte l’objet CartesTirées
+    injecte l’objet Résultat
+}
