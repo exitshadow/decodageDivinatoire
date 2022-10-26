@@ -281,8 +281,9 @@ button {
 }
 
 .cards-position {
-    width: 150px;
-    height: 200px;
+    width: 102px;
+    height: 152px;
+    border-radius: 10px;
 }
 
 #selection-area {
