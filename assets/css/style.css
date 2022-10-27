@@ -192,7 +192,7 @@ button {
     border-radius: 10px;
     backface-visibility: hidden;
     cursor: pointer;
-    background-image: url('../images/etoile.png');
+    background-image: url('../images/backCard.png');
     background-size: cover;
 }
 
@@ -204,7 +204,7 @@ button {
   border-radius: 10px;
 
   flex-shrink: 0;
-  background-image: url('../images/etoile.png');
+  background-image: url('../images/backCard.png');
     background-size: cover;
 }
 
