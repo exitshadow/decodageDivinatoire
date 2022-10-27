@@ -92,10 +92,10 @@
         "url": "./urltodefine",
         "signification":
         {
-          "past": "texte ici",
-          "present": "texte ici",
-          "advice": "texte ici",
-          "future": "texte ici"
+          "past": "Votre force et votre confiance en vous vous a amené un équilibre et au succès. Un voyage ou une rencontre a pu vous aider à concrétiser un projet, un changement de voie ou même une promotion.",
+          "present": "Vous êtes dans une période de succès et de chance, la réussite est au bout du chemin grâce à votre détermination. Une collaboration se présente à vous et pourrait amener une promotion ou une concrétisation de projet.",
+          "advice": "Attention à utiliser les énergies à bon escient, dans le cas contraire cela pourrait se révéler destructeur. Ayez confiance en vous, une collaboration pourrait vous amener loin et vous amenez l’équilibre dont vous avez besoin.",
+          "future": "La chance est avec vous, une concrétisation de projet ou une promotion vous ouvre les bras ! Un voyage pourrait être au rendez-vous. Une belle poussée en avant. "
         }
      },
 
@@ -106,10 +106,10 @@
         "url": "./urltodefine",
         "signification":
         {
-          "past": "texte ici",
-          "present": "texte ici",
-          "advice": "texte ici",
-          "future": "texte ici"
+          "past": "Un cycle a été terminé, une rupture de contrat a été acté ou annoncé. Vos finances ont pu en être percutées et des choix ont été posées pour une transformation.",
+          "present": "Vous êtes en cours d’une rupture de contrat, une fin de cycle, peut être devant la justice. Une vérité est découverte et pousse à faire des choix pour retrouver une stabilité.",
+          "advice": "Une fin de cycle pourrait s’annoncer, attention à vos finances, gardez une ligne de conduite et le moral dans cette situation. Faites les choix nécessaires et gardez une certaine droiture pour retrouver une stabilité.",
+          "future": "Un équilibre est retrouvé après la rupture d’un contrat ou un engagement. La justice a tranché en votre faveur et vos finances vont s’améliorer. Vous êtes protégée."
         }
      },
 
@@ -120,10 +120,10 @@
         "url": "./urltodefine",
         "signification":
         {
-          "past": "texte ici",
-          "present": "texte ici",
-          "advice": "texte ici",
-          "future": "texte ici"
+          "past": "Un repli sur soi a été nécessaire avant de se lancer dans un nouveau départ. Cette sagesse acquise lors de votre introspection vous a aidé à être plus impliqué dans vos projets.",
+          "present": "Vous êtes actuellement isolée pour une introspection, vous avez des choix à faire et avez besoin de base solide pour prendre ces décisions. Ce retour à vous, vous aide à acquérir la sagesse nécessaire pour vous investir plus dans vos projets. ",
+          "advice": "Un moment d’isolation est nécessaire pour trouver en soi les solutions pour un nouveau départ, savoir ce que vous désirez avant de procéder aux changements et de passer à l’action. Cela amènera une base plus solide et plus d’implication de votre part dans vos projets.",
+          "future": "Votre introspection vous a permis de trouver la sagesse pour commencer un nouveau départ sur des bases solide et en faisant les bons choix. Vos relations sont sincères, et des changements positifs se profilent à l’horizon."
         }
      },
 
@@ -134,10 +134,10 @@
         "url": "./urltodefine",
         "signification":
         {
-          "past": "texte ici",
-          "present": "texte ici",
-          "advice": "texte ici",
-          "future": "texte ici"
+          "past": "Vous avez su saisir les opportunités qui vous ont apporté une évolution positive dans tous les domaines. Votre transformation et persévérance ont apporté le succès.",
+          "present": "Des opportunités se présentent à vous et vous permette d’évoluer dans la direction d’un avenir prometteur. Vous êtes sur votre chemin de vie et dans l’abondance.",
+          "advice": "La persévérance est de rigueur. Avancez avec prudence, ne prenez pas les choses pour acquises, cela pourrait se retourner contre vous. Le succès dans tous les domaines sera à vous si vous y faites attention.",
+          "future": "Le succès dans tous les domaines vous attend, félicitations votre persévérance vous a permis de procéder aux changements nécessaires à votre évolution ! Les opportunités s’enchainent. L’abondance est à vous."
         }
      },
 
@@ -170,7 +170,7 @@
      },
 
      {
-        "name": "L’Arcane Sans name",
+        "name": "L’Arcane Sans nom",
         "number": 13,
         "type": "Majeur",
         "url": "./urltodefine",
@@ -198,7 +198,7 @@
      },
 
      {
-        "name": "Le Dable",
+        "name": "Le Diable",
         "number": 15,
         "type": "Majeur",
         "url": "./urltodefine",
