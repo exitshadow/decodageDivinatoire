@@ -1,18 +1,21 @@
 .container-resultat{
     width: 100%;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-
 header h1{
-    margin: 14% 22% 8% 22%;
+    width: 100%;
     text-align: center;
-
+    display: flex;
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
 }
 
 #headerTitles{
     display: flex;
-    
     flex-direction: row;
     justify-content: space-between;
     text-align: center;
@@ -43,30 +46,19 @@ div.box-shadow {
     border-radius: 10px;
 }
 
-/* div.box-shadow{
-    
-    background: #ffffffd9;
-    margin: 7% 5% 4%;
-    padding: 5%;
-    border-radius: 10px;
-} */
-
 .box-shadow p{
     margin-bottom: 7%;
     text-align: justify;
     font-family: "Montserrat-Regular";
 }
 
-.container-resultat button{
-    margin: -0.5rem auto;
+.btn-resultat{
     width: 142px;
     height: 53px;
-    text-align: center;
     padding: 2.5% 2%;
     font-family: "Montserrat-Medium";
-    border-radius: 20px;
-    
-
+    border-radius: 28px;
+    background-color: #ffdb71;
 }
 
 footer{
