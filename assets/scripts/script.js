@@ -86,12 +86,18 @@ function pickCard(value) {
 
 function turnCard(card) {
     console.log(turnCounter);
+     
     // check if card hasn’t already been turned
     // turncounter becomes useless
-    if (isDrawn && turnCounter <= MAXPICK)
+    if (!isDrawn && turnCounter <= MAXPICK)
     {
+        var realCard = shuffledDeck[card.id.replace("card","")];
         cardsTurned.push(card);
         card.className += " turned";
+        // let image = document.createElement("img");
+        // image.src=;
+        // card.appendChild(image);
+        card.style="background-image:url('"+realCard.url+"')";
         turnCounter++;
     }
 }

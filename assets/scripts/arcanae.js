@@ -5,7 +5,7 @@ let arcanae = {
           "name": "Le Bateleur",
           "number": 1,
           "type": "Majeur",
-          "url": "./urltodefine",
+          "url": "./assets/images/cardTarot_test2.png",
           "signification":
           {
             "past": "Une nouvelle opportunité concernant un projet, une relation vous a permis de vous lancer dans un nouveau départ, une nouvelle vie.",
@@ -19,7 +19,7 @@ let arcanae = {
         "name": "La Papesse",
         "number": 2,
         "type": "Majeur",
-        "url": "./urltodefine",
+        "url": "./assets/images/cardTarot_test2.png",
         "signification":
         {
           "past": "Un moment d’observation dans la patience et/ou isolement ont été nécessaire pour trouver de la paix et plus de richesse intérieure en vous pour mettre en place une nouvelle étape de vie.",
@@ -33,7 +33,7 @@ let arcanae = {
         "name": "L’Impératrice",
         "number": 3,
         "type": "Majeur",
-        "url": "./urltodefine",
+        "url": "./assets/images/imperatrice.png",
         "signification":
         {
           "past": "texte ici",
@@ -47,7 +47,7 @@ let arcanae = {
         "name": "L’Empereur",
         "number": 4,
         "type": "Majeur",
-        "url": "./urltodefine",
+        "url": "./assets/images/empereur.png",
         "signification":
         {
           "past": "texte ici",
@@ -61,7 +61,7 @@ let arcanae = {
         "name": "Le Pape",
         "number": 5,
         "type": "Majeur",
-        "url": "./urltodefine",
+        "url": "./assets/images/cardTarot_test2.png",
         "signification":
         {
           "past": "texte ici",
@@ -75,7 +75,7 @@ let arcanae = {
         "name": "L’Amoureux",
         "number": 6,
         "type": "Majeur",
-        "url": "./urltodefine",
+        "url": "./assets/images/cardTarot_test2.png",
         "signification":
         {
           "past": "texte ici",
@@ -89,7 +89,7 @@ let arcanae = {
         "name": "Le Chariot",
         "number": 7,
         "type": "Majeur",
-        "url": "./urltodefine",
+        "url": "./assets/images/chariot.png",
         "signification":
         {
           "past": "texte ici",
@@ -103,7 +103,7 @@ let arcanae = {
         "name": "La Justice",
         "number": 8,
         "type": "Majeur",
-        "url": "./urltodefine",
+        "url": "./assets/images/justice.png",
         "signification":
         {
           "past": "texte ici",
@@ -117,7 +117,7 @@ let arcanae = {
         "name": "L’Hermite",
         "number": 9,
         "type": "Majeur",
-        "url": "./urltodefine",
+        "url": "./assets/images/cardTarot_test2.png",
         "signification":
         {
           "past": "texte ici",
@@ -131,7 +131,7 @@ let arcanae = {
         "name": "La Roue de Fortune",
         "number": 10,
         "type": "Majeur",
-        "url": "./urltodefine",
+        "url": "./assets/images/cardTarot_test2.png",
         "signification":
         {
           "past": "texte ici",
@@ -145,7 +145,7 @@ let arcanae = {
         "name": "La Force",
         "number": 11,
         "type": "Majeur",
-        "url": "./urltodefine",
+        "url": "./assets/images/cardTarot_test2.png",
         "signification":
         {
           "past": "texte ici",
@@ -159,7 +159,7 @@ let arcanae = {
         "name": "Le Pendu",
         "number": 12,
         "type": "Majeur",
-        "url": "./urltodefine",
+        "url": "./assets/images/pendu.png",
         "signification":
         {
           "past": "texte ici",
@@ -170,10 +170,10 @@ let arcanae = {
      },
 
      {
-        "name": "L’Arcane Sans name",
+        "name": "La Mort",
         "number": 13,
         "type": "Majeur",
-        "url": "./urltodefine",
+        "url": "./assets/images/cardTarot_test2.png",
         "signification":
         {
           "past": "texte ici",
@@ -187,7 +187,7 @@ let arcanae = {
         "name": "La Tempérance",
         "number": 14,
         "type": "Majeur",
-        "url": "./urltodefine",
+        "url": "./assets/images/cardTarot_test2.png",
         "signification":
         {
           "past": "texte ici",
@@ -198,10 +198,10 @@ let arcanae = {
      },
 
      {
-        "name": "Le Dable",
+        "name": "Le Diable",
         "number": 15,
         "type": "Majeur",
-        "url": "./urltodefine",
+        "url": "./assets/images/cardTarot_test2.png",
         "signification":
         {
           "past": "texte ici",
@@ -215,7 +215,7 @@ let arcanae = {
         "name": "La Maison-Dieu",
         "number": 16,
         "type": "Majeur",
-        "url": "./urltodefine",
+        "url": "./assets/images/cardTarot_test2.png",
         "signification":
         {
           "past": "texte ici",
@@ -229,7 +229,7 @@ let arcanae = {
         "name": "L’Étoile",
         "number": 17,
         "type": "Majeur",
-        "url": "./urltodefine",
+        "url": "./assets/images/cardTarot_test2.png",
         "signification":
         {
           "past": "texte ici",
@@ -243,7 +243,7 @@ let arcanae = {
         "name": "La Lune",
         "number": 18,
         "type": "Majeur",
-        "url": "./urltodefine",
+        "url": "./assets/images/cardTarot_test2.png",
         "signification":
         {
           "past": "texte ici",
@@ -257,7 +257,7 @@ let arcanae = {
         "name": "Le Soleil",
         "number": 19,
         "type": "Majeur",
-        "url": "./urltodefine",
+        "url": "./assets/images/cardTarot_test2.png",
         "signification":
         {
           "past": "texte ici",
@@ -271,7 +271,7 @@ let arcanae = {
         "name": "Le Jugement",
         "number": 20,
         "type": "Majeur",
-        "url": "./urltodefine",
+        "url": "./assets/images/cardTarot_test2.png",
         "signification":
         {
           "past": "texte ici",
@@ -285,7 +285,7 @@ let arcanae = {
         "name": "Le Monde",
         "number": 21,
         "type": "Majeur",
-        "url": "./urltodefine",
+        "url": "./assets/images/leMonde.png",
         "signification":
         {
           "past": "texte ici",
@@ -299,7 +299,7 @@ let arcanae = {
         "name": "Le Mât",
         "number": 22,
         "type": "Majeur",
-        "url": "./urltodefine",
+        "url": "./assets/images/leFou.png",
         "signification":
         {
           "past": "texte ici",
