@@ -230,6 +230,8 @@ div.container-application button{
     width: 26%;
     padding: 2%;
     border-radius: 13px;
+    margin-left: -12%;
+
 }
 
 /* Fin de la div card */
