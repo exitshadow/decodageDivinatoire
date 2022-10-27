@@ -12,11 +12,11 @@ header h1{
 
 #headerTitles{
     display: flex;
-    width: 80vw;
+    
     flex-direction: row;
     justify-content: space-between;
     text-align: center;
-    margin: auto;
+    margin: 0 7%
 }
 
 div#left{
@@ -51,13 +51,13 @@ div.box-shadow{
 
 .container-resultat button{
     margin: 0rem auto;
-    width: 130px;
-    height: 45px;
+    width: 142px;
+    height: 53px;
     text-align: center;
-    padding: 2.5% 3%;
+    padding: 2.5% 2%;
     font-family: "Montserrat-Medium";
     border-radius: 20px;
-    background-color:#ffdb71 ;
+    background-color: #ffdb71;
 
 
 }
@@ -67,4 +67,17 @@ footer{
     justify-content: center;
     position: absolute;
     bottom: 0;
+}
+
+#titreCard1{
+    align-self: flex-start;
+}
+#titreCard2{
+    align-self: flex-start;
+}
+#titreCard3{
+    align-self: flex-end;
+}
+#titreCard4{
+    align-self: flex-end;
 }
