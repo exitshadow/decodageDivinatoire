@@ -37,7 +37,7 @@ header h2{
 }
 
 div.box-shadow{
-    background: #ffffff8f;
+    background: #ffffffd9;
     margin: 7% 5% 4%;
     padding: 5%;
     border-radius: 10px;
@@ -57,6 +57,14 @@ div.box-shadow{
     padding: 2.5% 3%;
     font-family: "Montserrat-Medium";
     border-radius: 20px;
+    background-color:#ffdb71 ;
 
 
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
 }
