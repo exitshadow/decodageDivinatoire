@@ -85,6 +85,7 @@ body {
     display: flex;
     width: 100%;
     height: 100vh;
+    background-image: url(../images/background.png);
 }
 
 .entrance {
@@ -94,6 +95,9 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+   
+    background-size: cover;
+    margin-top: 15rem;
 }
 
 a {
