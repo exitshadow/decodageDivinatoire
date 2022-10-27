@@ -193,6 +193,7 @@ button {
     backface-visibility: hidden;
     cursor: pointer;
     border: 1px solid black;
+    /* background-image: url('../images/backgroung-index.png'); */
 }
 
 .cards-position {
@@ -232,7 +233,10 @@ div.container-application button{
     border-radius: 13px;
     margin-left: -12%;
 
+
 }
+
+
 
 /* Fin de la div card */
 /*************** PAGE RESULAT **********/
