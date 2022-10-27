@@ -5,9 +5,8 @@
 
 
 header h1{
-    margin: 10% auto;
+    margin: 14% 22% 8% 22%;
     text-align: center;
-    margin-left: 20%;
 
 }
 
@@ -31,13 +30,15 @@ div#right{
 }
 
 header h2{
-    font-size: 1.5em;
+    font-size: 1em;
     color: white;
+    font-family: "Montserrat-Bold";
+    line-height: 1.5em;
 }
 
 div.box-shadow{
     background: #ffffff8f;
-    margin: 10% 5%;
+    margin: 7% 5% 4%;
     padding: 5%;
     border-radius: 10px;
 }
@@ -45,10 +46,17 @@ div.box-shadow{
 .box-shadow p{
     margin-bottom: 7%;
     text-align: justify;
+    font-family: "Montserrat-Regular";
 }
 
 .container-resultat button{
-  margin: 1rem auto;
-  width: 116px;
-    height: 42px;
+    margin: 0rem auto;
+    width: 130px;
+    height: 45px;
+    text-align: center;
+    padding: 2.5% 3%;
+    font-family: "Montserrat-Medium";
+    border-radius: 20px;
+
+
 }

@@ -303,7 +303,7 @@ button {
  /*height: 100vh;*/
 }
 div.container-application button{
-    position: absolute;
+    /* position: absolute; */
     bottom: 25px;
     left: 36%;
     width: 26%;
