@@ -85,8 +85,7 @@ body {
     display: flex;
     width: 100%;
     height: 100vh;
-    background-image: url(../images/background.png);
-    background-image: url(../images/Plan\ de\ travail\ 1.png);
+    background-image: url(../images/backgroung-index.png);
     background-size: cover;
 }
 
@@ -119,7 +118,7 @@ h1 {
     font-size: 2rem;
 }
 
-button {
+.btn-index {
     display: flex;
     width: 83px;
     height: 40px;
