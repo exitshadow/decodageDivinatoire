@@ -300,11 +300,19 @@ button {
 
 .container-application {
   width: 100%;
-
-  height: 100vh;
+ /*height: 100vh;*/
 }
 
 /* Fin de la div card */
+/*************** PAGE RESULAT **********/
+
+.container-resultat {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
 
 /* règles dynamiques pour changer l’arrière des cartes séléctionnées */
 .picked div.back {
