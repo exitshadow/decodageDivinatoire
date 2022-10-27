@@ -120,10 +120,10 @@
         "url": "./urltodefine",
         "signification":
         {
-          "past": "texte ici",
-          "present": "texte ici",
-          "advice": "texte ici",
-          "future": "texte ici"
+          "past": "Un repli sur soi a été nécessaire avant de se lancer dans un nouveau départ. Cette sagesse acquise lors de votre introspection vous a aidé à être plus impliqué dans vos projets.",
+          "present": "Vous êtes actuellement isolée pour une introspection, vous avez des choix à faire et avez besoin de base solide pour prendre ces décisions. Ce retour à vous, vous aide à acquérir la sagesse nécessaire pour vous investir plus dans vos projets. ",
+          "advice": "Un moment d’isolation est nécessaire pour trouver en soi les solutions pour un nouveau départ, savoir ce que vous désirez avant de procéder aux changements et de passer à l’action. Cela amènera une base plus solide et plus d’implication de votre part dans vos projets.",
+          "future": "Votre introspection vous a permis de trouver la sagesse pour commencer un nouveau départ sur des bases solide et en faisant les bons choix. Vos relations sont sincères, et des changements positifs se profilent à l’horizon."
         }
      },
 
@@ -134,10 +134,10 @@
         "url": "./urltodefine",
         "signification":
         {
-          "past": "texte ici",
-          "present": "texte ici",
-          "advice": "texte ici",
-          "future": "texte ici"
+          "past": "Vous avez su saisir les opportunités qui vous ont apporté une évolution positive dans tous les domaines. Votre transformation et persévérance ont apporté le succès.",
+          "present": "Des opportunités se présentent à vous et vous permette d’évoluer dans la direction d’un avenir prometteur. Vous êtes sur votre chemin de vie et dans l’abondance.",
+          "advice": "La persévérance est de rigueur. Avancez avec prudence, ne prenez pas les choses pour acquises, cela pourrait se retourner contre vous. Le succès dans tous les domaines sera à vous si vous y faites attention.",
+          "future": "Le succès dans tous les domaines vous attend, félicitations votre persévérance vous a permis de procéder aux changements nécessaires à votre évolution ! Les opportunités s’enchainent. L’abondance est à vous."
         }
      },
 
