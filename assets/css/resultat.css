@@ -89,3 +89,13 @@ footer{
 #titreCard4{
     align-self: flex-end;
 }
+
+.h4-box{
+    font-family: "Crima";
+    color: #13192c;
+}
+
+img {
+    width: 10px;
+    height: 10px;
+}
