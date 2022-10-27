@@ -86,6 +86,7 @@ body {
     width: 100%;
     height: 100vh;
     background-image: url(../images/background.png);
+    background-image: url(../images/Plan\ de\ travail\ 1.png);
     background-size: cover;
 }
 
@@ -105,9 +106,10 @@ a {
     text-decoration: none;
     text-transform: uppercase;
     font-family: "Montserrat-Bold";
-    padding-left: 0.2rem;
+    padding-left: 0.3rem;
     padding-top: 0.5rem;
     color: #13192c;
+
 }
 
 h1 {
@@ -119,11 +121,12 @@ h1 {
 
 button {
     display: flex;
-    width: 80px;
+    width: 83px;
     height: 40px;
     margin-top: 2rem;
-    border-radius: 25px;
-    background-color: #ffffff80;
+    border-radius: 28px;
+    background-color: #ffffffe6;
+
 }
 
 /*************** PAGE APPLICATION **********/
@@ -227,6 +230,8 @@ div.container-application button{
     width: 26%;
     padding: 2%;
     border-radius: 13px;
+    margin-left: -12%;
+
 }
 
 /* Fin de la div card */
@@ -244,4 +249,11 @@ div.container-application button{
 .picked div.back {
     background-color: red;
     color: red;
+}
+
+footer{
+    position: absolute;
+    /* display: flex; */
+    bottom: 3%;
+    width: 100%;
 }
