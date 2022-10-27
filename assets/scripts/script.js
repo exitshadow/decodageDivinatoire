@@ -130,3 +130,24 @@ function loadJSON(callback) {
 // }
 
 // var clicked = getParameterByName('clicked');
+
+
+  /* Storing a stringified array and object to local storage */
+// var cardsPicked; //Je récupère l'array des 4 cartes sélectionnées 
+// localStorage.setItem('storedCards', JSON.stringify(storedCards)) //Je convertis en string Jaaaason mes données js
+
+  /* Parsing back to JavaScript array*/
+// var myFourSavedCards = JSON.parse(localStorage.getItem('storedCards'));
+// console.log(myFourSavedCards); 
+
+  /* Clear all items : localStorage.clear();*/
+
+  /* Note à moi-même : arriver à récupérer dans la page resultat.html :
+//     card1: [index de la carte]["name"]["signification"]["past"] 
+//     card2: [index de la carte]["name"]["signification"]["present"] 
+//     card3: [index de la carte]["name"]["signification"]["advice"] 
+//     card4: [index de la carte]["name"]["signification"]["future"] 
+  */
+
+// https://developer.mozilla.org/fr/docs/Learn/JavaScript/Objects/Basics
+// https://developer.mozilla.org/fr/docs/Learn/JavaScript/Objects/JSON
