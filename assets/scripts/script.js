@@ -93,12 +93,12 @@ function turnCard(card) {
     {
         var realCard = shuffledDeck[card.id.replace("card","")];
         cardsTurned.push(card);
-        card.className += " turned";
         // let image = document.createElement("img");
         // image.src=;
         // card.appendChild(image);
-        card.style="background-image:url('"+realCard.url+"')";
         turnCounter++;
+        card.style="background-image:url('"+realCard.url+"')";
+        card.className += " front";
     }
 }
 

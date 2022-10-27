@@ -317,5 +317,6 @@ button {
 /* règles dynamiques pour changer l’arrière des cartes séléctionnées */
 .picked div.back {
   background-color: red;
+  
   color: red;
 }
