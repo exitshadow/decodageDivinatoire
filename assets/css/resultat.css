@@ -36,12 +36,20 @@ header h2{
     line-height: 1.5em;
 }
 
-div.box-shadow{
+div.box-shadow {
+    background: #ffffffd9;
+    margin: -3% 5% 4%;
+    padding: 5%;
+    border-radius: 10px;
+}
+
+/* div.box-shadow{
+    
     background: #ffffffd9;
     margin: 7% 5% 4%;
     padding: 5%;
     border-radius: 10px;
-}
+} */
 
 .box-shadow p{
     margin-bottom: 7%;
@@ -50,7 +58,7 @@ div.box-shadow{
 }
 
 .container-resultat button{
-    margin: 0rem auto;
+    margin: -0.5rem auto;
     width: 142px;
     height: 53px;
     text-align: center;
