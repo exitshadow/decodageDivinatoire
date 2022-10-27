@@ -89,14 +89,14 @@ function turnCard(card) {
      
     // check if card hasn’t already been turned
     // turncounter becomes useless
-    if (!isDrawn && turnCounter <= MAXPICK)
+    if (!isDrawn && turnCounter <= MAXPICK && card.className!="card")
     {
         var realCard = shuffledDeck[card.id.replace("card","")];
         cardsTurned.push(card);
         // let image = document.createElement("img");
-        // image.src=;
+        // image.src= ;
         // card.appendChild(image);
-        turnCounter++;
+        // turnCounter++;
         card.style="background-image:url('"+realCard.url+"')";
         card.className += " front";
     }
