@@ -251,15 +251,15 @@ button {
 
 .front {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 105px;
+    height: 155px;
     border-radius: 10px;
     backface-visibility: hidden;
     transform: rotateY(180deg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    background-color: green;
+    background-color: green;  
     cursor: not-allowed;
 }
 
