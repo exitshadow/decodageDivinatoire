@@ -122,3 +122,15 @@ function loadJSON(callback) {
     };
     xobj.send(null);
 }
+
+//Proposition de solution de sauvegarde des data entre page application.html et resultat.html
+// Query solution stackoverflow to implement
+
+// function getParameterByName(name) {
+//     name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+//     var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+//         results = regex.exec(location.search);
+//     return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+// }
+
+// var clicked = getParameterByName('clicked');
