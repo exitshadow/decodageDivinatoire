@@ -106,10 +106,10 @@
         "url": "./urltodefine",
         "signification":
         {
-          "past": "texte ici",
-          "present": "texte ici",
-          "advice": "texte ici",
-          "future": "texte ici"
+          "past": "Un cycle a été terminé, une rupture de contrat a été acté ou annoncé. Vos finances ont pu en être percutées et des choix ont été posées pour une transformation.",
+          "present": "Vous êtes en cours d’une rupture de contrat, une fin de cycle, peut être devant la justice. Une vérité est découverte et pousse à faire des choix pour retrouver une stabilité.",
+          "advice": "Une fin de cycle pourrait s’annoncer, attention à vos finances, gardez une ligne de conduite et le moral dans cette situation. Faites les choix nécessaires et gardez une certaine droiture pour retrouver une stabilité.",
+          "future": "Un équilibre est retrouvé après la rupture d’un contrat ou un engagement. La justice a tranché en votre faveur et vos finances vont s’améliorer. Vous êtes protégée."
         }
      },
 
@@ -170,7 +170,7 @@
      },
 
      {
-        "name": "L’Arcane Sans name",
+        "name": "L’Arcane Sans nom",
         "number": 13,
         "type": "Majeur",
         "url": "./urltodefine",
@@ -198,7 +198,7 @@
      },
 
      {
-        "name": "Le Dable",
+        "name": "Le Diable",
         "number": 15,
         "type": "Majeur",
         "url": "./urltodefine",
