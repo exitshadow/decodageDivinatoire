@@ -162,10 +162,10 @@
         "url": "./urltodefine",
         "signification":
         {
-          "past": "texte ici",
-          "present": "texte ici",
-          "advice": "texte ici",
-          "future": "texte ici"
+          "past": "Une période de repli vous a permis de vous remettre en question et à accepter des changements inévitables. Vous avez pu être spectateur de votre vie au lieu de la vivre.",
+          "present": "Vous êtes dans l’attente et cela retarde les événements, l’impatience vous mène à l’agacement et avez du mal à vous remettre en question. Accepter la situation est difficile.",
+          "advice": "Patience, acceptez le changement et lâcher prise pour débloquer la situation. Votre impatience et agacement retarde les évènements. Devenez acteur de votre vie et non spectateur pour sortir de cette situation.",
+          "future": "La situation semble bloquée, des remises en question et de la patience aideront à se détacher de la situation et à accepter le changement."
         }
      },
 
