@@ -1,47 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
     <div class="container-application">
-        <div class="header"></div>
-        <div class="cards">
-            <div id="board">
-                <div id="card1" class="card">
-                    <div class="front"></div>
-                    <div class="back"></div>
-                </div>
-                <div id="card2" class="card">
-                    <div class="front"></div>
-                    <div class="back"></div>
-                </div>
-                <div id="card3" class="card">
-                    <div class="front"></div>
-                    <div class="back"></div>
-                </div>
-                <div id="card4" class="card">
-                    <div class="front"></div>
-                    <div class="back"></div>
-                </div>
-            </div>
+      <div class="header"></div>
+      <div class="cards">
+        <div class="boardCont">
+        <div id="board">
+            <div class="horizontal">
+          <div id="card1" class="card">
+            <div class="front"></div>
+            <div class="back"></div>
+          </div>
+          <div id="card2" class="card">
+            <div class="front"></div>
+            <div class="back"></div>
+          </div>
         </div>
-        <div id="selection-area" class="cards-selector">
-            <!-- <div class="cards-position">
-
-            </div> -->
+        <div class='vertical'>
+          <div id="card3" class="card">
+            <div class="front"></div>
+            <div class="back"></div>
+          </div>
+          <div id="card4" class="card">
+            <div class="front"></div>
+            <div class="back"></div>
+          </div>
         </div>
-        <footer>
-
-        <button><a href="./resultat.html">votre tirage</a> </button>
-        </footer>
+      </div>
+    </div>
+      <div id="selection-area" class="cards-selector"></div>
+      <footer>
+        <a class="btn votreTirBtn" href="./resultat.html">tirage</a>
+      </footer>
     </div>
     <script src="./assets/scripts/arcanae.js"></script>
     <script src="./assets/scripts/script.js"></script>
-</body>
-
+  </body>
 </html>

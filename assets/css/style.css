@@ -1,264 +1,398 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /******* FONTS *******/
 @font-face {
-    font-family: "Montserrat-Bold";
-    src: url("../fonts/Montserrat/Montserrat-Bold.ttf");
+  font-family: "Montserrat-Bold";
+  src: url("../fonts/Montserrat/Montserrat-Bold.ttf");
 }
 
 @font-face {
-    font-family: "Montserrat-Light";
-    src: url("../fonts/Montserrat/Montserrat-Light.ttf");
+  font-family: "Montserrat-Light";
+  src: url("../fonts/Montserrat/Montserrat-Light.ttf");
 }
 
 @font-face {
-    font-family: "Montserrat-Medium";
-    src: url("../fonts/Montserrat/Montserrat-Medium.ttf");
+  font-family: "Montserrat-Medium";
+  src: url("../fonts/Montserrat/Montserrat-Medium.ttf");
 }
 
 @font-face {
-    font-family: "Montserrat-Regular";
-    src: url("../fonts/Montserrat/Montserrat-Regular.ttf");
+  font-family: "Montserrat-Regular";
+  src: url("../fonts/Montserrat/Montserrat-Regular.ttf");
 }
 
 @font-face {
-    font-family: "Crima";
-    src: url("../fonts/Crima/Crima.otf");
+  font-family: "Crima";
+  src: url("../fonts/Crima/Crima.otf");
 }
 
 /********* Media Queries *********/
 @media (max-width: 390px) {
-    body {
-        width: 100%;
-    }
+  body {
+    width: 100%;
+  }
 }
 
 /****************** Page Index *******************/
 
 body {
-    background-color: #13192c;
+  background-color: #13192c;
 }
 
 .container {
-    display: flex;
-    width: 100%;
-    height: 100vh;
-    background-image: url(../images/backgroung-index.png);
-    background-size: cover;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/backgroung-index.png);
+  background-size: cover;
 }
 
 .entrance {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-   
-  
-    margin-top: 15rem;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 15rem;
 }
 
-a {
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: "Montserrat-Bold";
-    padding-left: 0.3rem;
-    padding-top: 0.5rem;
-    color: #13192c;
-
+a.btn {
+  width: 83px;
+  height: 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Montserrat-Bold";
+  color: #13192c;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 28px;
 }
 
 h1 {
-    display: flex;
-    color: #ffdb71;
-    font-family: "Crima";
-    font-size: 2rem;
+  display: flex;
+  color: #ffdb71;
+  font-family: "Crima";
+  font-size: 2rem;
 }
 
-.btn-index {
-    display: flex;
-    width: 83px;
-    height: 40px;
-    margin-top: 2rem;
-    border-radius: 28px;
-    background-color: #ffffffe6;
-
+a.btn-index {
+  margin-top: 2rem;
+  background-color: #ffffffe6;
 }
 
 /*************** PAGE APPLICATION **********/
 /* Div cards */
 
+div.boardCont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(90vh - 171px);
+}
+
 #board {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/eyeSun.png);
+  background-position: center;
+  background-size: 50px 50px;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 65vh;
+  position: relative;
+  max-width: 420px;
+  align-self: center;
+  justify-self: center;
+  max-height: 500px;
 }
 
 .card {
-    width: 100px;
-    height: 150px;
-    /* border: 1px black solid; */
-    margin: 15px;
-    position: absolute;
-    transform-style: preserve-3d;
-    transition: all 0.5s;
+  width: 100px;
+  height: 171px;
+  /* border: 1px black solid; */
+  margin: 15px;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: all 0.5s;
 }
 
-#card3 {
-    top: 55px;
+/* #card3 {
+  top: 21px;
 }
 
 #card1 {
-    top: 168px;
+  top: 168px;
   left: 0;
 }
 
 #card2 {
-    top: 168px;
+  top: 168px;
   right: 0;
 }
 
 #card4 {
-    top: 285px;
+  top: 320px;
 }
 
 .card.visible {
-    transform: rotateY(180deg);
+  transform: rotateY(180deg);
+} */
+
+.card.visible {
+  transform: rotateY(180deg);
 }
 
 .front {
-    position: absolute;
-    width: 105px;
-    height: 155px;
-    border-radius: 10px;
-    backface-visibility: hidden;
-    transform: rotateY(180deg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-color: green;  
-    cursor: not-allowed;
+  position: absolute;
+  /* width: 105px;
+  height: 176px; */
+  border-radius: 10px;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: green;
+  cursor: not-allowed;
+  height: 100%;
+  width: 100%;
 }
 
 .back {
-    
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    backface-visibility: hidden;
-    cursor: pointer;
-    background-image: url('../images/backCard.png');
-    background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  backface-visibility: hidden;
+  cursor: pointer;
+  background-image: url("../images/backCardCroped.png");
+  background-size: cover;
 }
 
 .cards-position {
   width: 102px;
 
-  height: 152px;
+  height: 171px;
 
   border-radius: 10px;
 
   flex-shrink: 0;
-  background-image: url('../images/backCard.png');
-    background-size: cover;
+  background-image: url("../images/backCardCroped.png");
+  background-size: cover;
+  margin-left: -53px;
 }
 
 #selection-area {
   width: 100%;
 
-    display: flex;
+  display: flex;
 
-    position: absolute;
-
-    bottom: 10%;
-
-  overflow: scroll;
+  overflow-x: scroll;
+  overflow-y: hidden;
 
   flex-wrap: nowrap;
 }
 
 .container-application {
   width: 100%;
- /*height: 100vh;*/
-}
-div.container-application button{
-    /* position: absolute; */
-    bottom: 25px;
-    left: 36%;
-    width: 26%;
-    padding: 2%;
-    border-radius: 13px;
-    margin-left: -12%;
-
-
+  /*height: 100vh;*/
 }
 
-
+/*div.container-application button {
+   position: absolute; 
+  bottom: 25px;
+  left: 36%;
+  width: 26%;
+  padding: 2%;
+  border-radius: 13px;
+  margin-left: -12%;
+}*/
 
 /* Fin de la div card */
 /*************** PAGE RESULAT **********/
 
 .container-resultat {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
 }
-
 
 /* règles dynamiques pour changer l’arrière des cartes séléctionnées */
 .picked div.back {
-    background-color: red;
-    color: red;
+  /* background-color: red; */
+  color: rgb(255, 55, 0);
+  box-shadow: 0 0 1px 2px inset;
 }
 
-footer{
-    position: absolute;
-    /* display: flex; */
-    bottom: 3%;
-    width: 100%;
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+a.votreTirBtn {
+  position: absolute;
+  bottom: 19px;
+  margin-top: 2rem;
+  border-radius: 28px;
+  background-color: #ffdb71;
+  justify-self: center;
+}
+
+div.horizontal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+
+  align-self: center;
+  height: 90%;
+  flex-shrink: 0;
+}
+
+div.vertical {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  align-self: center;
+  /* top: 50%;
+  margin-top: -85px;*/
+
+  width: 90%;
+}
+
+@media screen and (min-width: 600px) {
+  #selection-area {
+    justify-content: center;
+  }
 }

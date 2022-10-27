@@ -1,92 +1,111 @@
-.container-resultat{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.container-resultat {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-header h1{
-    width: 100%;
-    text-align: center;
-    display: flex;
-    margin-top: 2.5rem;
-    margin-bottom: 2rem;
+header h1 {
+  letter-spacing: 0.5px;
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
 }
 
-#headerTitles{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    text-align: center;
-    margin: 0 7%
+#headerTitles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  margin: 0 7%;
 }
 
-div#left{
-    display: flex;
-    flex-direction: column;
-
+div#left {
+  display: flex;
+  flex-direction: column;
 }
-div#right{
-    display: flex;
-    flex-direction: column;
+div#right {
+  display: flex;
+  flex-direction: column;
 }
 
-header h2{
-    font-size: 1em;
-    color: white;
-    font-family: "Montserrat-Bold";
-    line-height: 1.5em;
+header h2 {
+  font-size: 1em;
+  color: white;
+  font-family: "Montserrat-Bold";
+  line-height: 1.5em;
 }
 
 div.box-shadow {
-    background: #ffffffd9;
-    margin: -3% 5% 4%;
-    padding: 5%;
-    border-radius: 10px;
+  background: #ffffffd9;
+  margin: -3% 5% 4%;
+  padding: 5%;
+  padding-bottom: 0;
+  border-radius: 10px;
+  height: 77.5vh;
 }
 
-.box-shadow p{
-    margin-bottom: 7%;
-    text-align: justify;
-    font-family: "Montserrat-Regular";
+.box-shadow p {
+  text-align: justify;
+  font-family: "Montserrat-Regular";
 }
 
-.btn-resultat{
-    width: 142px;
-    height: 53px;
-    padding: 2.5% 2%;
-    font-family: "Montserrat-Medium";
-    border-radius: 28px;
-    background-color: #ffdb71;
+a.btn-resultat {
+  width: 164px;
+  background-color: #ffdb71;
 }
 
-footer{
+footer {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+}
+
+#titreCard1 {
+  align-self: flex-start;
+}
+#titreCard2 {
+  align-self: flex-start;
+}
+#titreCard3 {
+  align-self: flex-end;
+}
+#titreCard4 {
+  align-self: flex-end;
+}
+
+.h4-box {
+  font-family: "Crima";
+  color: #13192c;
+  margin-bottom: 1.2px;
+}
+
+.h4-box img {
+  width: 10px;
+  height: 10px;
+  margin-right: 2px;
+}
+
+div.paraCont {
+  padding-right: 7px;
+  max-height: 130px;
+  overflow-y: auto;
+  margin-bottom: 6%;
+}
+
+@media screen and (min-width: 600px) {
+  .container-resultat {
+    max-width: 600px;
+  }
+  body {
     display: flex;
     justify-content: center;
-    position: absolute;
-    bottom: 0;
-}
+    align-items: center;
+  }
 
-#titreCard1{
-    align-self: flex-start;
-}
-#titreCard2{
-    align-self: flex-start;
-}
-#titreCard3{
-    align-self: flex-end;
-}
-#titreCard4{
-    align-self: flex-end;
-}
-
-.h4-box{
-    font-family: "Crima";
-    color: #13192c;
-}
-
-img {
-    width: 10px;
-    height: 10px;
+  div.paraCont {
+    max-height: auto;
+    overflow-y: visible;
+  }
 }
