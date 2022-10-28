@@ -294,7 +294,7 @@ div.boardCont {
   border-radius: 10px;
   backface-visibility: hidden;
   cursor: pointer;
-  background-image: url("../images/backCardCroped.png");
+  background-image: url("../images/Plan\ de\ travail\ 1.png");
   background-size: cover;
 }
 
@@ -306,7 +306,7 @@ div.boardCont {
   border-radius: 10px;
 
   flex-shrink: 0;
-  background-image: url("../images/backCardCroped.png");
+  background-image: url("../images/Plan\ de\ travail\ 1.png");
   background-size: cover;
   margin-left: -53px;
 }
