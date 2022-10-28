@@ -252,13 +252,17 @@ div.boardCont {
   position: relative;
   transform-style: preserve-3d;
   transition: all 0.5s;
+  opacity: 50%;
 }
 
-
+.picked {
+  opacity: 100% !important;
+}
 
 .card.visible {
   transform: rotateY(180deg);
 }
+
 
 .front {
   display: none;
