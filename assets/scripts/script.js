@@ -73,11 +73,13 @@ function shuffle(deck) {
 }
 
 function pickCard(value) {
-  if (cardsPicked.length <= MAXPICK - 1) {
+  if (cardsPicked.length < MAXPICK) {
     cardsPicked.push(shuffledDeck[value]);
     cardElements[value].remove();
     pickedCardsPlaceholders[cardsPicked.length - 1].className += " picked";
-  } else isDrawn = true;
+  }
+  if (cardsPicked.length == MAXPICK) isDrawn = true;
+  console.log(cardsPicked.length);
   console.log(isDrawn);
 }
 
@@ -85,16 +87,16 @@ function turnCard(card) {
   console.log(turnCounter);
 
   // check if card hasn’t already been turned
-  // turncounter becomes useless
-  if (!isDrawn && turnCounter <= MAXPICK && card.className != "card") {
-    var realCard = shuffledDeck[card.id.replace("card", "")];
+  if (isDrawn && cardsTurned.length <= MAXPICK) {
+    var realCard = cardsPicked[turnCounter];
+    console.log(realCard);
     cardsTurned.push(card);
     // let image = document.createElement("img");
     // image.src= ;
     // card.appendChild(image);
-    // turnCounter++;
-    card.style = "background-image:url('" + realCard.url + "')";
+    //card.style = "background-image:url('" + realCard.url + "')";
     card.className += " visible";
+    turnCounter++;
   }
 }
 
