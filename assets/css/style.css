@@ -193,6 +193,9 @@ a.btn {
   justify-content: center;
   align-items: center;
   border-radius: 28px;
+  box-shadow: 0px 2px 3px black;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
 }
 
 h1 {
@@ -245,27 +248,7 @@ div.boardCont {
   transition: all 0.5s;
 }
 
-/* #card3 {
-  top: 21px;
-}
 
-#card1 {
-  top: 168px;
-  left: 0;
-}
-
-#card2 {
-  top: 168px;
-  right: 0;
-}
-
-#card4 {
-  top: 320px;
-}
-
-.card.visible {
-  transform: rotateY(180deg);
-} */
 
 .card.visible {
   transform: rotateY(180deg);
@@ -294,7 +277,7 @@ div.boardCont {
   border-radius: 10px;
   backface-visibility: hidden;
   cursor: pointer;
-  background-image: url("../images/Plan\ de\ travail\ 1.png");
+  background-image: url("../images/background.png");
   background-size: cover;
 }
 
@@ -306,9 +289,11 @@ div.boardCont {
   border-radius: 10px;
 
   flex-shrink: 0;
-  background-image: url("../images/Plan\ de\ travail\ 1.png");
+  background-image: url("../images/background.png");
   background-size: cover;
   margin-left: -53px;
+  border: none;
+    box-shadow: 0px 1px 3px black;
 }
 
 #selection-area {
