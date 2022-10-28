@@ -232,10 +232,10 @@
         "url": "./urltodefine",
         "signification":
         {
-          "past": "texte ici",
-          "present": "texte ici",
-          "advice": "texte ici",
-          "future": "texte ici"
+          "past": "Une belle construction vous a permise de bâtir une période d’abondance dans tous les domaines, et ce au-delà de vos espérances.",
+          "present": "Vous êtes dans une période d’abondance, tout vos espoirs sont permis. Vos constructions sont une véritable réussite.",
+          "advice": "Gardez le cap, vos constructions amènent au succès et tout vous sourit. L’honnêteté et la sincérité seront de mise durant cette période.",
+          "future": "Une belle construction vous permet d’atteindre l’harmonie, la naissance de nouveau projet vous apporte plaisir et bonheur au-delà de vos espérances."
         }
      },
 
@@ -246,10 +246,10 @@
         "url": "./urltodefine",
         "signification":
         {
-          "past": "texte ici",
-          "present": "texte ici",
-          "advice": "texte ici",
-          "future": "texte ici"
+          "past": "Vous aviez pu vous trouver dans une période de remise en question profonde, des hésitations ont pu vous mettre à fleur de peau et vous déstabiliser.",
+          "present": "Vous êtes dans une période de doute et de remise en question, des évènements inattendus surviennent et vos émotions prennent le dessus. ",
+          "advice": "Votre intuition se trompe rarement, suivez-la sans crainte. Attention à ne pas confondre vos peurs avec votre intuition au risque d’être rempli de doutes. Ce que vous pensez désirer n’est pas toujours bon pour vous.",
+          "future": "Des évènements inattendus amènent une ouverture sur votre inconscient, vous pouvez maitriser vos peurs et aboutir dans vos projets. Vous developer votre créativité en suivant vos intuitions et voyez clair pour vos choix."
         }
      },
 
