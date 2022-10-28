@@ -252,12 +252,10 @@ div.boardCont {
   position: relative;
   transform-style: preserve-3d;
   transition: all 0.5s;
-  opacity: 50%;
+
 }
 
-.picked {
-  opacity: 100% !important;
-}
+
 
 .card.visible {
   transform: rotateY(180deg);
@@ -288,6 +286,9 @@ div.boardCont {
   border-radius: 10px;
   backface-visibility: hidden;
   cursor: pointer;
+  background-image: url("../images/background.png");
+  background-size: cover;
+
  
     border: solid 2px #ffdb71;
 }
@@ -362,7 +363,12 @@ div.boardCont {
 .picked div.back {
 
   background-size: cover;
-  background-image: url(../images/background.png); 
+  background-image: url(../images/backgroung.png); 
+  border: none;
+
+
+  background-size: cover;
+  background-image: url(../images/backgroung.png); 
   border: none;
 }
 
