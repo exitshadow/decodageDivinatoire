@@ -11,7 +11,17 @@ let drawButton = document.getElementById("draw-button");
 console.log(pickedCardsPlaceholders);
 
 // seléction des DOM existants page résultat
+let resultsElement = document.getElementById("results");
 
+let pastTitle = document.getElementById("past-title");
+let presentTitle = document.getElementById("present-title");
+let adviceTitle = document.getElementById("advice-title");
+let resultTitle = document.getElementById("result-title");
+
+let pastParagraph = document.getElementById("paragraph1");
+let presentParagraph = document.getElementById("paragraph2");
+let adviceParagraph = document.getElementById("paragraph3");
+let resultParagraph = document.getElementById("paragraph4");
 
 const MAXPICK = 4; // nombre maximum de cartes choisies
 let cardsPicked = []; // liste des cartes tirées par le joueur, objet carte
@@ -30,7 +40,17 @@ let domResultReading; // objet DOM pour l’injection du texte des résultats
 //#region persistent variables & game state management
 
 if (typeof(Storage) !== "undefined") {
-  console.log(localStorage.pastCardName);
+  if (resultsElement) {
+    pastTitle.innerHTML += localStorage.pastCardName;
+    presentTitle.innerHTML += localStorage.presentCardName;
+    adviceTitle.innerHTML += localStorage.adviceCardName;
+    resultTitle.innerHTML += localStorage.resultCardName;
+
+    pastParagraph.innerHTML = localStorage.pastText;
+    presentParagraph.innerHTML = localStorage.presentText;
+    adviceParagraph.innerHTML = localStorage.adviceText;
+    resultParagraph.innerHTML = localStorage.resultText;
+  }
 } else {
   alert("hey, your browser doesn’t support session storage, that’s too bad.");
 }

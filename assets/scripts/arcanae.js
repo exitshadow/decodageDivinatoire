@@ -1,313 +1,313 @@
 let arcanae = {
     "arcane": [
  
+      {
+         "name": "Le Bateleur",
+         "number": 1,
+         "type": "Majeur",
+         "url": "./urltodefine",
+         "signification":
+         {
+           "past": "Une nouvelle opportunité concernant un projet, une relation vous a permis de vous lancer dans un nouveau départ, une nouvelle vie.",
+           "present": "Vous êtes actuellement dans un changement de vie important, vous avez mis en œuvre toutes les capacités pour atteindre vos objectifs.",
+           "advice": "C’est le moment parfait pour vous engager dans un changement de vie importante. Vous avez toutes les capacités nécessaires pour atteindre vos objectifs.",
+           "future": "Une construction solide et durable dans le temps se présente à vous, vos décisions seront réfléchies et vos engagements stables."
+         }
+      },
+
+      {
+       "name": "La Papesse",
+       "number": 2,
+       "type": "Majeur",
+       "url": "./urltodefine",
+       "signification":
        {
-          "name": "Le Bateleur",
-          "number": 1,
-          "type": "Majeur",
-          "url": "./assets/images/leBateleur.png",
-          "signification":
-          {
-            "past": "Une nouvelle opportunité concernant un projet, une relation vous a permis de vous lancer dans un nouveau départ, une nouvelle vie.",
-            "present": "Vous êtes actuellement dans un changement de vie important, vous avez mis en œuvre toutes les capacités pour atteindre vos objectifs.",
-            "advice": "C’est le moment parfait pour vous engager dans un changement de vie importante. Vous avez toutes les capacités nécessaires pour atteindre vos objectifs.",
-            "future": "Une construction solide et durable dans le temps se présente à vous, vos décisions seront réfléchies et vos engagements stables."
-          }
-       },
- 
+         "past": "Un moment d’observation dans la patience et/ou isolement ont été nécessaire pour trouver de la paix et plus de richesse intérieure en vous pour mettre en place une nouvelle étape de vie.",
+         "present": "Vous êtes actuellement dans une période d’isolement et d’attente, cette prise de distance et votre sens de l’observation sont nécessaires pour vous amener plus de paix et de richesse intérieure en vous.",
+         "advice": "La patience et la bienveillance envers vous-même et les autres sont conseillés en cette période, isolez-vous si nécessaire. Ce moment d’observation et d’apprentissage vous apportera paix et richesse intérieure.",
+         "future": "Votre patience porte ses fruits, la paix s’installe et votre richesse intérieure a grandement évoluée. Votre vie se débloque vers une nouvelle étape de vie féconde."
+       }
+    },
+
+    {
+       "name": "L’Impératrice",
+       "number": 3,
+       "type": "Majeur",
+       "url": "./urltodefine",
+       "signification":
        {
-        "name": "La Papesse",
-        "number": 2,
-        "type": "Majeur",
-        "url": "./assets/images/laPapesse.png",
-        "signification":
-        {
-          "past": "Un moment d’observation dans la patience et/ou isolement ont été nécessaire pour trouver de la paix et plus de richesse intérieure en vous pour mettre en place une nouvelle étape de vie.",
-          "present": "Vous êtes actuellement dans une période d’isolement et d’attente, cette prise de distance et votre sens de l’observation sont nécessaires pour vous amener plus de paix et de richesse intérieure en vous.",
-          "advice": "La patience et la bienveillance envers vous-même et les autres sont conseillés en cette période, isolez-vous si nécessaire. Ce moment d’observation et d’apprentissage vous apportera paix et richesse intérieure.",
-          "future": "Votre patience porte ses fruits, la paix s’installe et votre richesse intérieure a grandement évoluée. Votre vie se débloque vers une nouvelle étape de vie féconde."
-        }
-     },
+         "past": "Grâce à votre intelligence et votre observation des situations, vous avez su faire les bons choix dans le passé. Vous avez appris à être autonome et indépendante.",
+         "present": "Vous êtes puissante et respectée, vous savez ce que vous voulez et suivez votre intuition car il vous guide à faire les bons choix sur votre chemin de vie. Vous apprenez à être autonome et indépendante.",
+         "advice": "Votre intelligence et votre savoir vous permettent d’observer les situations pour faire les choix les plus adapté à votre chemin de vie. Votre intuition ne se trompe pas, faites-vous confiance !",
+         "future": "La confiance que vous donnez à votre intuition, vous mène à faire les choix les plus judicieux pour votre avenir. Vous avez le respect des autres et l’intelligence nécessaire pour atteindre vos objectifs. Vous êtes puissante !"
+       }
+    },
 
-     {
-        "name": "L’Impératrice",
-        "number": 3,
-        "type": "Majeur",
-        "url": "./assets/images/imperatrice.png",
-        "signification":
-        {
-          "past": "texte ici",
-          "present": "texte ici",
-          "advice": "texte ici",
-          "future": "texte ici"
-        }
-     },
+    {
+       "name": "L’Empereur",
+       "number": 4,
+       "type": "Majeur",
+       "url": "./urltodefine",
+       "signification":
+       {
+         "past": "Grâce à votre volonté et votre détermination, vous avez su vous imposer pour atteindre vos objectifs. Vos actions ont porté du succès dans tous les domaines.",
+         "present": "Vous êtes dans la réalisation de vos projets et porter vos batailles au succès, vous tirez les situations à votre avantage grâce à votre détermination et votre sens de la stratégie.",
+         "advice": "Un conseil avisé pourrait vous aider à atteindre vos objectifs, attention à l’entêtement ! La préparation de vos actions et la persévérance seront vos atouts durant cette période.",
+         "future": "Un projet solide et stable se met en place, vous avez su prendre votre place avec détermination. Il n’y a plus d’attente dans la réalisation de tous vos projets. Vous êtes puissant et allez où vous le voulez."
+       }
+    },
 
-     {
-        "name": "L’Empereur",
-        "number": 4,
-        "type": "Majeur",
-        "url": "./assets/images/empereur.png",
-        "signification":
-        {
-          "past": "texte ici",
-          "present": "texte ici",
-          "advice": "texte ici",
-          "future": "texte ici"
-        }
-     },
+    {
+       "name": "Le Pape",
+       "number": 5,
+       "type": "Majeur",
+       "url": "./urltodefine",
+       "signification":
+       {
+         "past": "Vous avez évoluée et récolté la reconnaissance que vous méritez dans les projets que vous avez mis en place, vous avez acquis de la maturité et la confiance en vous qui vous ont permis d’atteindre le succès. ",
+         "present": "Vous êtes confiante et mature. Votre sens de la droiture et de la justice vous incite à construire des bases solides sur le long terme. Vous êtes protégée et guidée vers la paix et la réussite.",
+         "advice": "Dans cette situation, la droiture et la clairvoyance sont importantes, ne prenez pas de décision trop hâtive, Passer à l’action dans la réflexion. Attention à la rigidité ! Prudence à la tentation de ce qui brille qui pourrait aveugler et faire croire que vous allez rapidement trouver ce que vous voulez, « Tout vient à point à qui sait attendre ».",
+         "future": "Une très belle réussite vous attend ! et ce dans tous les domaines. Des bases solides et l’acquisition de force et de renommée vous ouvre les bras. Un engagement sera couronné de succès. "
+       }
+    },
 
-     {
-        "name": "Le Pape",
-        "number": 5,
-        "type": "Majeur",
-        "url": "./assets/images/lePape.png",
-        "signification":
-        {
-          "past": "texte ici",
-          "present": "texte ici",
-          "advice": "texte ici",
-          "future": "texte ici"
-        }
-     },
+    {
+       "name": "L’Amoureux",
+       "number": 6,
+       "type": "Majeur",
+       "url": "./urltodefine",
+       "signification":
+       {
+         "past": "De mauvais choix ont affecté votre santé émotionnelle, ont provoqué des doutes et des hésitations, vous aviez pu être dévouée au mauvais travail où à la mauvaise personne.",
+         "present": "Vous êtes prudente et recherchez la sincérité dans vos échanges. Vous apprenez à vous faire confiance et suivre vos intuitions pour trouver l’amour intérieur et profitez de moments de légèreté.",
+         "advice": "Rester connecté avec la réalité est le meilleur conseil dans cette situation. Attention aux décisions sur coup de tête, aux illusions, à l’impossible et aux mauvais choix affectifs comme les tentations sans lendemain qui bloqueront votre équilibre et votre sagesse et amèneront des doutes et du pessimisme. Gardez les pieds sur terre et apprenez à connaitre les gens avant de vous engager.",
+         "future": "Votre intuition vous guide à faire les bons choix pendant les périodes de doutes et d’hésitations, vous atteignez une stabilité émotionnelle, vous avez confiance en vous."
+       }
+    },
 
-     {
-        "name": "L’Amoureux",
-        "number": 6,
-        "type": "Majeur",
-        "url": "./assets/images/amoureux.png",
-        "signification":
-        {
-          "past": "texte ici",
-          "present": "texte ici",
-          "advice": "texte ici",
-          "future": "texte ici"
-        }
-     },
+    {
+       "name": "Le Chariot",
+       "number": 7,
+       "type": "Majeur",
+       "url": "./urltodefine",
+       "signification":
+       {
+         "past": "Votre force et votre confiance en vous vous a amené un équilibre et au succès. Un voyage ou une rencontre a pu vous aider à concrétiser un projet, un changement de voie ou même une promotion.",
+         "present": "Vous êtes dans une période de succès et de chance, la réussite est au bout du chemin grâce à votre détermination. Une collaboration se présente à vous et pourrait amener une promotion ou une concrétisation de projet.",
+         "advice": "Attention à utiliser les énergies à bon escient, dans le cas contraire cela pourrait se révéler destructeur. Ayez confiance en vous, une collaboration pourrait vous amener loin et vous amenez l’équilibre dont vous avez besoin.",
+         "future": "La chance est avec vous, une concrétisation de projet ou une promotion vous ouvre les bras ! Un voyage pourrait être au rendez-vous. Une belle poussée en avant. "
+       }
+    },
 
-     {
-        "name": "Le Chariot",
-        "number": 7,
-        "type": "Majeur",
-        "url": "./assets/images/leChariot.png",
-        "signification":
-        {
-          "past": "texte ici",
-          "present": "texte ici",
-          "advice": "texte ici",
-          "future": "texte ici"
-        }
-     },
+    {
+       "name": "La Justice",
+       "number": 8,
+       "type": "Majeur",
+       "url": "./urltodefine",
+       "signification":
+       {
+         "past": "Un cycle a été terminé, une rupture de contrat a été acté ou annoncé. Vos finances ont pu en être percutées et des choix ont été posées pour une transformation.",
+         "present": "Vous êtes en cours d’une rupture de contrat, une fin de cycle, peut être devant la justice. Une vérité est découverte et pousse à faire des choix pour retrouver une stabilité.",
+         "advice": "Une fin de cycle pourrait s’annoncer, attention à vos finances, gardez une ligne de conduite et le moral dans cette situation. Faites les choix nécessaires et gardez une certaine droiture pour retrouver une stabilité.",
+         "future": "Un équilibre est retrouvé après la rupture d’un contrat ou un engagement. La justice a tranché en votre faveur et vos finances vont s’améliorer. Vous êtes protégée."
+       }
+    },
 
-     {
-        "name": "La Justice",
-        "number": 8,
-        "type": "Majeur",
-        "url": "./assets/images/laJustice.png",
-        "signification":
-        {
-          "past": "texte ici",
-          "present": "texte ici",
-          "advice": "texte ici",
-          "future": "texte ici"
-        }
-     },
+    {
+       "name": "L’Hermite",
+       "number": 9,
+       "type": "Majeur",
+       "url": "./urltodefine",
+       "signification":
+       {
+         "past": "Un repli sur soi a été nécessaire avant de se lancer dans un nouveau départ. Cette sagesse acquise lors de votre introspection vous a aidé à être plus impliqué dans vos projets.",
+         "present": "Vous êtes actuellement isolée pour une introspection, vous avez des choix à faire et avez besoin de base solide pour prendre ces décisions. Ce retour à vous, vous aide à acquérir la sagesse nécessaire pour vous investir plus dans vos projets. ",
+         "advice": "Un moment d’isolation est nécessaire pour trouver en soi les solutions pour un nouveau départ, savoir ce que vous désirez avant de procéder aux changements et de passer à l’action. Cela amènera une base plus solide et plus d’implication de votre part dans vos projets.",
+         "future": "Votre introspection vous a permis de trouver la sagesse pour commencer un nouveau départ sur des bases solide et en faisant les bons choix. Vos relations sont sincères, et des changements positifs se profilent à l’horizon."
+       }
+    },
 
-     {
-        "name": "L’Hermite",
-        "number": 9,
-        "type": "Majeur",
-        "url": "./assets/images/lHermite.png",
-        "signification":
-        {
-          "past": "texte ici",
-          "present": "texte ici",
-          "advice": "texte ici",
-          "future": "texte ici"
-        }
-     },
+    {
+       "name": "La Roue de Fortune",
+       "number": 10,
+       "type": "Majeur",
+       "url": "./urltodefine",
+       "signification":
+       {
+         "past": "Vous avez su saisir les opportunités qui vous ont apporté une évolution positive dans tous les domaines. Votre transformation et persévérance ont apporté le succès.",
+         "present": "Des opportunités se présentent à vous et vous permette d’évoluer dans la direction d’un avenir prometteur. Vous êtes sur votre chemin de vie et dans l’abondance.",
+         "advice": "La persévérance est de rigueur. Avancez avec prudence, ne prenez pas les choses pour acquises, cela pourrait se retourner contre vous. Le succès dans tous les domaines sera à vous si vous y faites attention.",
+         "future": "Le succès dans tous les domaines vous attend, félicitations votre persévérance vous a permis de procéder aux changements nécessaires à votre évolution ! Les opportunités s’enchainent. L’abondance est à vous."
+       }
+    },
 
-     {
-        "name": "La Roue de Fortune",
-        "number": 10,
-        "type": "Majeur",
-        "url": "./assets/images/roueDeLaFortune.png",
-        "signification":
-        {
-          "past": "texte ici",
-          "present": "texte ici",
-          "advice": "texte ici",
-          "future": "texte ici"
-        }
-     },
+    {
+       "name": "La Force",
+       "number": 11,
+       "type": "Majeur",
+       "url": "./urltodefine",
+       "signification":
+       {
+         "past": "Vos remises en question vous ont amené à une maitrise de vous. Cela vous permet d’atteindre la victoire sur vos investissements pour l’avenir.",
+         "present": "Votre courage et votre volonté vous amène à la victoire, vous investissez pour votre avenir avec détermination.",
+         "advice": "Des remises en question sont nécessaires pour atteindre la réussite. Attention à votre détermination qui pourrait être au détriment des autres. La sagesse et la sincérité seront vos alliés.",
+         "future": "Vous avez passez avec succès les épreuves, et êtes passé avec détermination à la prochaine étape de votre vie."
+       }
+    },
 
-     {
-        "name": "La Force",
-        "number": 11,
-        "type": "Majeur",
-        "url": "./assets/images/laForce.png",
-        "signification":
-        {
-          "past": "texte ici",
-          "present": "texte ici",
-          "advice": "texte ici",
-          "future": "texte ici"
-        }
-     },
+    {
+       "name": "Le Pendu",
+       "number": 12,
+       "type": "Majeur",
+       "url": "./urltodefine",
+       "signification":
+       {
+         "past": "Une période de repli vous a permis de vous remettre en question et à accepter des changements inévitables. Vous avez pu être spectateur de votre vie au lieu de la vivre.",
+         "present": "Vous êtes dans l’attente et cela retarde les événements, l’impatience vous mène à l’agacement et avez du mal à vous remettre en question. Accepter la situation est difficile.",
+         "advice": "Patience, acceptez le changement et lâcher prise pour débloquer la situation. Votre impatience et agacement retarde les évènements. Devenez acteur de votre vie et non spectateur pour sortir de cette situation.",
+         "future": "La situation semble bloquée, des remises en question et de la patience aideront à se détacher de la situation et à accepter le changement."
+       }
+    },
 
-     {
-        "name": "Le Pendu",
-        "number": 12,
-        "type": "Majeur",
-        "url": "./assets/images/lePendu.png",
-        "signification":
-        {
-          "past": "texte ici",
-          "present": "texte ici",
-          "advice": "texte ici",
-          "future": "texte ici"
-        }
-     },
+    {
+       "name": "L’Arcane Sans nom",
+       "number": 13,
+       "type": "Majeur",
+       "url": "./urltodefine",
+       "signification":
+       {
+         "past": "Vous avez fait le deuil d’une ancienne vie pour vous lancer dans un nouveau départ.",
+         "present": "Une situation arrive à sa fin, c’est inévitable pour en commencer une meilleure pour vous.",
+         "advice": "Laissez le changement faire son œuvre, c’est inévitable pour faire le deuil d’une situation, cela vous amène de nouveaux départs meilleurs pour vous.",
+         "future": "Une situation est terminée. De grands changements vous apportent une nouvelle vie et de nouvelles rencontres. "
+       }
+    },
 
-     {
-        "name": "La Mort",
-        "number": 13,
-        "type": "Majeur",
-        "url": "./assets/images/arquaneSansNom.png",
-        "signification":
-        {
-          "past": "texte ici",
-          "present": "texte ici",
-          "advice": "texte ici",
-          "future": "texte ici"
-        }
-     },
+    {
+       "name": "La Tempérance",
+       "number": 14,
+       "type": "Majeur",
+       "url": "./urltodefine",
+       "signification":
+       {
+         "past": "Vous avez su trouver des solutions à des situations de vie compliquées suite à des excès et une routine qui ne vous convenais plus. Vous vous êtes réconciliée avec vous-même et gagnez une stabilité relationnelle.",
+         "present": "Des excès peuvent déséquilibrer votre épanouissement, vous avez une ouverture vers différents chemins et recherchez le réconfort et la douceur dans votre foyer. Une réconciliation vous amène la paix.",
+         "advice": "Les excès en tout genre sont déconseillés trouvez un juste milieu. Attention à la routine qui pourrait affadir vos relations. Des compromis sont nécessaires pour des réconciliations. ",
+         "future": "Un changement de vie vous apporte douceur et paix, de nouveaux chemins s’ouvrent à vous. Vous avez trouvé un juste milieu dans vos excès, ce qui amène plus de stabilité."
+       }
+    },
 
-     {
-        "name": "La Tempérance",
-        "number": 14,
-        "type": "Majeur",
-        "url": "./assets/images/temperance.png",
-        "signification":
-        {
-          "past": "texte ici",
-          "present": "texte ici",
-          "advice": "texte ici",
-          "future": "texte ici"
-        }
-     },
+    {
+       "name": "Le Diable",
+       "number": 15,
+       "type": "Majeur",
+       "url": "./urltodefine",
+       "signification":
+       {
+         "past": "texte ici",
+         "present": "texte ici",
+         "advice": "texte ici",
+         "future": "texte ici"
+       }
+    },
 
-     {
-        "name": "Le Diable",
-        "number": 15,
-        "type": "Majeur",
-        "url": "./assets/images/leDiable.png",
-        "signification":
-        {
-          "past": "texte ici",
-          "present": "texte ici",
-          "advice": "texte ici",
-          "future": "texte ici"
-        }
-     },
+    {
+       "name": "La Maison-Dieu",
+       "number": 16,
+       "type": "Majeur",
+       "url": "./urltodefine",
+       "signification":
+       {
+         "past": "La rupture d’une situation a pu vous bouleverser, vous mettre en situation d’échec. Ce changement radical et soudain à provoquer une crise en vous.  ",
+         "present": "Vous êtes dans une reconstruction suite à un changement radical, une rupture de situation qui a pu vous bouleverser, vous savez que c’est pour du positif et de nouvelles bases. ",
+         "advice": "Une reconstruction positive s’annonce si vous ne résister pas aux changements. De mauvaises nouvelles ou rupture de situation pourrait vous bouleverser, tenez le coup une belle transformation vous apportera une nouvelle vie.",
+         "future": "La construction d’une nouvelle vie, suite à des bouleversements et rupture d’une situation, s’ouvre à vous."
+       }
+    },
 
-     {
-        "name": "La Maison-Dieu",
-        "number": 16,
-        "type": "Majeur",
-        "url": "./assets/images/maisonDieu.png",
-        "signification":
-        {
-          "past": "texte ici",
-          "present": "texte ici",
-          "advice": "texte ici",
-          "future": "texte ici"
-        }
-     },
+    {
+       "name": "L’Étoile",
+       "number": 17,
+       "type": "Majeur",
+       "url": "./urltodefine",
+       "signification":
+       {
+         "past": "Une belle construction vous a permise de bâtir une période d’abondance dans tous les domaines, et ce au-delà de vos espérances.",
+         "present": "Vous êtes dans une période d’abondance, tout vos espoirs sont permis. Vos constructions sont une véritable réussite.",
+         "advice": "Gardez le cap, vos constructions amènent au succès et tout vous sourit. L’honnêteté et la sincérité seront de mise durant cette période.",
+         "future": "Une belle construction vous permet d’atteindre l’harmonie, la naissance de nouveau projet vous apporte plaisir et bonheur au-delà de vos espérances."
+       }
+    },
 
-     {
-        "name": "L’Étoile",
-        "number": 17,
-        "type": "Majeur",
-        "url": "./assets/images/etoile.png",
-        "signification":
-        {
-          "past": "texte ici",
-          "present": "texte ici",
-          "advice": "texte ici",
-          "future": "texte ici"
-        }
-     },
+    {
+       "name": "La Lune",
+       "number": 18,
+       "type": "Majeur",
+       "url": "./urltodefine",
+       "signification":
+       {
+         "past": "Vous aviez pu vous trouver dans une période de remise en question profonde, des hésitations ont pu vous mettre à fleur de peau et vous déstabiliser.",
+         "present": "Vous êtes dans une période de doute et de remise en question, des évènements inattendus surviennent et vos émotions prennent le dessus. ",
+         "advice": "Votre intuition se trompe rarement, suivez-la sans crainte. Attention à ne pas confondre vos peurs avec votre intuition au risque d’être rempli de doutes. Ce que vous pensez désirer n’est pas toujours bon pour vous.",
+         "future": "Des évènements inattendus amènent une ouverture sur votre inconscient, vous pouvez maitriser vos peurs et aboutir dans vos projets. Vous developer votre créativité en suivant vos intuitions et voyez clair pour vos choix."
+       }
+    },
 
-     {
-        "name": "La Lune",
-        "number": 18,
-        "type": "Majeur",
-        "url": "./assets/images/background.png",
-        "signification":
-        {
-          "past": "texte ici",
-          "present": "texte ici",
-          "advice": "texte ici",
-          "future": "texte ici"
-        }
-     },
+    {
+       "name": "Le Soleil",
+       "number": 19,
+       "type": "Majeur",
+       "url": "./urltodefine",
+       "signification":
+       {
+         "past": "texte ici",
+         "present": "texte ici",
+         "advice": "texte ici",
+         "future": "texte ici"
+       }
+    },
 
-     {
-        "name": "Le Soleil",
-        "number": 19,
-        "type": "Majeur",
-        "url": "./assets/images/leSoleil.png",
-        "signification":
-        {
-          "past": "texte ici",
-          "present": "texte ici",
-          "advice": "texte ici",
-          "future": "texte ici"
-        }
-     },
+    {
+       "name": "Le Jugement",
+       "number": 20,
+       "type": "Majeur",
+       "url": "./urltodefine",
+       "signification":
+       {
+         "past": "Des imprévus ont pu vous déstabiliser, vous avez su repartir du bon pied et ça vous a permis de retrouver la joie.",
+         "present": "Des imprévus peuvent vous déstabiliser mais vous gardez la joie car vous savez que c’est pour repartir de bon pied et que ça vous apportera la réussite dans vos projets.",
+         "advice": "Des imprévus pourraient vous déstabiliser, gardez la foi c’est pour repartir du bon pied. Un retour que vous attendez vous amènera de la réussite et de la joie. ",
+         "future": "Un nouveau départ s’annonce pour vous, vous avez su gardez votre joie malgré les imprévus. Une réussite professionnelle ou un retour amoureux vous apporte un nouveau départ."
+       }
+    },
+    
+    {
+       "name": "Le Monde",
+       "number": 21,
+       "type": "Majeur",
+       "url": "./urltodefine",
+       "signification":
+       {
+         "past": "Un engagement sincère et durable vous a permis de vous réaliser et d’atteindre le bonheur. De échanges et des communications ont pu vous y mener.",
+         "present": "Vous vous sentez en paix, vous vous engagez dans un projet sincère et durable. Des échanges et des communications vous apporte le bonheur.",
+         "advice": "Les échanges et communications sont importantes durant cette période. Ils vous apportent la paix intérieur et l’accomplissement de vos projets.",
+         "future": "Vos engagements sont durables et sincères, vous vous sentez accomplie et en paix."
+       }
+    },
 
-     {
-        "name": "Le Jugement",
-        "number": 20,
-        "type": "Majeur",
-        "url": "./assets/images/leJugement.png",
-        "signification":
-        {
-          "past": "texte ici",
-          "present": "texte ici",
-          "advice": "texte ici",
-          "future": "texte ici"
-        }
-     },
-     
-     {
-        "name": "Le Monde",
-        "number": 21,
-        "type": "Majeur",
-        "url": "./assets/images/LeMonde.png",
-        "signification":
-        {
-          "past": "texte ici",
-          "present": "texte ici",
-          "advice": "texte ici",
-          "future": "texte ici"
-        }
-     },
+    {
+       "name": "Le Mât",
+       "number": 22,
+       "type": "Majeur",
+       "url": "./urltodefine",
+       "signification":
+       {
+         "past": "texte ici",
+         "present": "texte ici",
+         "advice": "texte ici",
+         "future": "texte ici"
+       }
+    }
 
-     {
-        "name": "Le Mât",
-        "number": 22,
-        "type": "Majeur",
-        "url": "./assets/images/LeMat.png",
-        "signification":
-        {
-          "past": "texte ici",
-          "present": "texte ici",
-          "advice": "texte ici",
-          "future": "texte ici"
-        }
-     }
-
-    ]
+   ]
  }
