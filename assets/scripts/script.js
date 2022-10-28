@@ -132,7 +132,7 @@ function turnCard(card) {
 
     card = card.parentElement;
     cardsTurned.push(card);
-    // there is a bug here
+    
     var index = pickedCardsArray.findIndex(function(selectCard) {
       console.log(card);
       console.log(selectCard);
