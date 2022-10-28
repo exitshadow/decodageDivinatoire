@@ -24,17 +24,17 @@ let presentParagraph = document.getElementById("paragraph2");
 let adviceParagraph = document.getElementById("paragraph3");
 let resultParagraph = document.getElementById("paragraph4");
 
-const MAXPICK = 4; // nombre maximum de cartes choisies
-let cardsPicked = []; // liste des cartes tirées par le joueur, objet carte
-let cardsTurned = []; // liste des cartes tournées par le joueur, élément DOM
-let cardElements = []; // liste des cartes tirées par le joueur, element DOM
+const MAXPICK = 4;      // nombre maximum de cartes choisies
+let cardsPicked = [];   // liste des cartes tirées par le joueur, objet carte
+let cardsTurned = [];   // liste des cartes tournées par le joueur, élément DOM
+let cardElements = [];  // liste des cartes tirées par le joueur, element DOM
 
-let isDrawn = false; // est-ce que toutes les cartes sont tirées
-let turnCounter = 0; // compteur des cartes retournées
+let isDrawn = false;    // est-ce que toutes les cartes sont tirées
+let turnCounter = 0;    // compteur des cartes retournées
 
 // reinjection de contenus
-let domCardsPickedNames; // objet DOM  pour l’injection des cartes sélectionnées
-let domResultReading; // objet DOM pour l’injection du texte des résultats
+let domCardsPickedNames;  // objet DOM  pour l’injection des cartes sélectionnées
+let domResultReading;     // objet DOM pour l’injection du texte des résultats
 
 //#endregion
 
@@ -60,6 +60,8 @@ if (typeof(Storage) !== "undefined") {
 if (containerApplication) {
   referenceDeck = arcanae.arcane; // à remplacer avec un vrai lecteur JSON
   shuffledDeck = shuffle(referenceDeck);
+
+  drawButton.remove();
   
   for (let i = 0; i < shuffledDeck.length; i++) {
     let cardElement = document.createElement("button");
@@ -83,7 +85,8 @@ if (containerApplication) {
   }
   
   drawButton.addEventListener("click", function (e) {
-    setDrawingValues();
+      if (isTurned) drawButton.disabled = false;
+      setDrawingValues();
   });
 
 }
@@ -125,7 +128,7 @@ function turnCard(card) {
   console.log(turnCounter);
 
   // check if card hasn’t already been turned
-  if (isDrawn && cardsTurned.length <= MAXPICK) {
+  if (isDrawn && cardsTurned.length < MAXPICK) {
     var realCard = cardsPicked[turnCounter];
     console.log(realCard);
     cardsTurned.push(card);
@@ -134,6 +137,9 @@ function turnCard(card) {
     card.appendChild(image);
     card.className += " visible";
     turnCounter++;
+  }
+  if (cardsTurned.length == MAXPICK) {
+    document.getElementById("validate").appendChild(drawButton);
   }
 }
 
