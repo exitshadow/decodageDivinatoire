@@ -85,7 +85,7 @@ if (containerApplication) {
   }
   
   drawButton.addEventListener("click", function (e) {
-      if (isTurned) drawButton.disabled = false;
+      drawButton.disabled = false;
       setDrawingValues();
   });
 
