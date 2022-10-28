@@ -260,10 +260,10 @@ let arcanae = {
        "url": "./assets/images/leSoleil.png",
        "signification":
        {
-         "past": "texte ici",
-         "present": "texte ici",
-         "advice": "texte ici",
-         "future": "texte ici"
+         "past": "Votre énergie positive et votre joie de vivre ont apporté le bonheur aux autres et à vous-même. Vos relations sont épanouies et la chance est avec vous. Vous avez progressé dans la bonne direction.",
+         "present": "La chance est au rendez-vous. C’est le meilleur moment pour saisir les opportunités, vos relations sont épanouies et vous recevez la reconnaissance pour votre travail accompli.",
+         "advice": "Continuez à faire preuve de bienveillance et d’altruisme, restez fidèle à vous-même et saisissez les opportunités qui s’offrent à vous. ",
+         "future": "Vos progrès vous ont propulsés en avant, vous obtenez la reconnaissance que vous méritez et l’abondance dans tous les domaines. Vos relations vous apportent chaleur et fidélité."
        }
     },
 
