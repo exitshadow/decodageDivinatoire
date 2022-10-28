@@ -6,6 +6,7 @@ let shuffledDeck; // contenant qui va recevoir toutes les cartes mélangées
 // selection des DOM existants page tirage
 let containerApplication = document.getElementsByClassName("container-application");
 let pickedCardsPlaceholders = document.getElementsByClassName("card");
+let pickedCardsArray = [].slice.call(pickedCardsPlaceholders);
 let selectionArea = document.getElementById("selection-area");
 let drawButton = document.getElementById("draw-button");
 
@@ -80,7 +81,7 @@ if (containerApplication) {
   
   for (let i = 0; i < pickedCardsPlaceholders.length; i++) {
     pickedCardsPlaceholders[i].addEventListener("click", function (e) {
-      turnCard(e.target.parentElement);
+      turnCard(e.target);
     });
   }
   
@@ -125,15 +126,24 @@ function pickCard(value) {
 }
 
 function turnCard(card) {
-  console.log(turnCounter);
 
   // check if card hasn’t already been turned
-  if (isDrawn && cardsTurned.length < MAXPICK) {
-    var realCard = cardsPicked[turnCounter];
-    console.log(realCard);
+  if (isDrawn) {
+
+    card = card.parentElement;
     cardsTurned.push(card);
+    
+    var index = pickedCardsArray.findIndex(function(selectCard) {
+      console.log(card);
+      console.log(selectCard);
+      return selectCard == card;
+    });
+    console.log(index);
+    
     let image = document.createElement("img");
+    var realCard = cardsPicked[index];
     image.src= realCard.url;
+    
     card.appendChild(image);
     card.className += " visible";
     turnCounter++;
