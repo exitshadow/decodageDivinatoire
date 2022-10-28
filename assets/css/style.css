@@ -423,7 +423,7 @@ div.vertical {
     right: 8px; 
 }
 
-.cards img{
+.cards img#home{
     position: absolute;
     width: 60px;
     top: 4px;
