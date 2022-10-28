@@ -255,6 +255,7 @@ div.boardCont {
 }
 
 .front {
+  display: none;
   position: absolute;
   /* width: 105px;
   height: 176px; */
@@ -279,6 +280,21 @@ div.boardCont {
   cursor: pointer;
   background-image: url("../images/background.png");
   background-size: cover;
+}
+
+.card img {
+  position: absolute;
+  /* width: 105px;
+  height: 176px; */
+  border-radius: 10px;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  cursor: not-allowed;
+  height: 100%;
+  width: 100%;
 }
 
 .cards-position {
@@ -386,6 +402,8 @@ div.vertical {
   }
 
   .container {
+  
+    background-image: url(../images/backgroung-index-fullScreen.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
