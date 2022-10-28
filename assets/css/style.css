@@ -284,8 +284,8 @@ div.boardCont {
   border-radius: 10px;
   backface-visibility: hidden;
   cursor: pointer;
-  background-image: url("../images/background.png");
-  background-size: cover;
+ 
+    border: solid 2px #ffdb71;
 }
 
 .card img {
@@ -356,8 +356,10 @@ div.boardCont {
 
 /* règles dynamiques pour changer l’arrière des cartes séléctionnées */
 .picked div.back {
-  color: rgb(251 249 249);
-  box-shadow: 0 0 10px -1px
+
+  background-size: cover;
+  background-image: url(../images/background.png); 
+  border: none;
 }
 
 footer {
@@ -372,6 +374,7 @@ a.votreTirBtn {
   border-radius: 28px;
   background-color: #ffdb71;
   justify-self: center;
+  padding: 0 13px 0 16px;
 }
 
 div.horizontal {
@@ -424,7 +427,7 @@ div.vertical {
 
 .cards img#home{
     position: absolute;
-    width: 60px;
-    top: 4px;
-    left: 0px;
+    width: 41px;
+    top: 19px;
+    left: 13px;
 }
