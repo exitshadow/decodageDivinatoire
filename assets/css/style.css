@@ -356,9 +356,8 @@ div.boardCont {
 
 /* règles dynamiques pour changer l’arrière des cartes séléctionnées */
 .picked div.back {
-  /* background-color: red; */
-  color: rgb(255, 55, 0);
-  box-shadow: 0 0 1px 2px inset;
+  color: rgb(251 249 249);
+  box-shadow: 0 0 10px -1px
 }
 
 footer {

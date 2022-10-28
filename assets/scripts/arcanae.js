@@ -204,11 +204,11 @@ let arcanae = {
        "url": "./assets/images/leDiable.png",
        "signification":
        {
-         "past": "texte ici",
-         "present": "texte ici",
-         "advice": "texte ici",
-         "future": "texte ici"
-       }
+         "past": "Doté d’une forte personnalité, votre charisme a pu vous mener vers une belle réussite dans les affaires. Vous avez pu subir des trahisons et de la jalousie et cela a pu vous mener à des dépendances malsaines.",
+         "present": "Votre caractère passionné vous amène une belle réussite professionnelle. Cependant de la jalousie peut vous donner un sentiment de trahison. Prudence aux addictions en tout genre.",
+         "advice": "Votre excès de confiance peut vous faire prendre de mauvaises décisions. Faites preuve de retenue et de prudence afin de ne pas blesser votre entourage. Attention aux addictions en tout genre qui peuvent vous mener à l’échec.",
+         "future": "Utilisez à bon escient votre intuition et il vous mènera vers de grandes réussites dans les affaires. Des trahisons et jalousies peuvent survenir, prenez garde."
+      }
     },
 
     {
@@ -296,16 +296,16 @@ let arcanae = {
     },
 
     {
-       "name": "./assets/images/leMat.png",
+       "name": "Le Mat",
        "number": 22,
        "type": "Majeur",
-       "url": "./urltodefine",
+       "url": "./assets/images/leMat.png",
        "signification":
        {
-         "past": "texte ici",
-         "present": "texte ici",
-         "advice": "texte ici",
-         "future": "texte ici"
+         "past": "Des situations passées vous ont permis de prendre des décisions de vie importante et de gagner votre indépendance. Des décisions hâtives ont pu ralentir vos projets.",
+         "present": "C’est le bon moment pour envisager de voyager ou prendre un nouveau départ. Vous avez besoin de changement et de nouveauté. Des décisions hâtives peuvent vous ralentir.",
+         "advice": "Votre désir d’indépendance peut vous pousser vers de nouveaux horizons, mais prenez garde à ne pas prendre de décisions hâtives sous le coup de l’impulsivité cela ne ferait que ralentir vos projets.",
+         "future": "En suivant la voie de la liberté, vous grandissez dans tous les domaines de votre vie, un coup de foudre amoureux et/ou un changement professionnel fait grandir votre passion."
        }
     }
 
