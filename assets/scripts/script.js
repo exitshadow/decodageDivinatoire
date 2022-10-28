@@ -4,6 +4,7 @@ let referenceDeck; // injecter tous les arcanes depuis le json
 let shuffledDeck; // contenant qui va recevoir toutes les cartes mélangées
 
 // selection des DOM existants page tirage
+let containerApplication = document.getElementsByClassName("container-application");
 let pickedCardsPlaceholders = document.getElementsByClassName("card");
 let selectionArea = document.getElementById("selection-area");
 let drawButton = document.getElementById("draw-button");
@@ -37,8 +38,7 @@ let domResultReading; // objet DOM pour l’injection du texte des résultats
 
 //#endregion
 
-//#region persistent variables & game state management
-
+//#region RESULTS PROGRAM
 if (typeof(Storage) !== "undefined") {
   if (resultsElement) {
     pastTitle.innerHTML += localStorage.pastCardName;
@@ -54,52 +54,39 @@ if (typeof(Storage) !== "undefined") {
 } else {
   alert("hey, your browser doesn’t support session storage, that’s too bad.");
 }
-
-// localStorage.exists;
-// localStorage.restart;
-
-// localStorage.pastCardName;
-// localStorage.presentCardName;
-// localStorage.adviceCardName;
-// localStorage.resultCardName;
-
-// localStorage.pastText;
-// localStorage.presentText;
-// localStorage.adviceText;
-// localStorage.resultText;
-
 //#endregion
 
-//#region  PROGRAM
-
-referenceDeck = arcanae.arcane; // à remplacer avec un vrai lecteur JSON
-shuffledDeck = shuffle(referenceDeck);
-
-for (let i = 0; i < shuffledDeck.length; i++) {
-  let cardElement = document.createElement("button");
-  cardElement.setAttribute("id", `card-${i}`);
-  cardElement.setAttribute("class", "cards-position");
-  cardElement.setAttribute("value", `${i}`);
-  cardElements.push(cardElement);
-  selectionArea.appendChild(cardElement);
-}
-
-cardElements.forEach(function (i) {
-  i.addEventListener("click", function (e) {
-    pickCard(e.target.value);
+//#region  DRAWING PROGRAM
+if (containerApplication) {
+  referenceDeck = arcanae.arcane; // à remplacer avec un vrai lecteur JSON
+  shuffledDeck = shuffle(referenceDeck);
+  
+  for (let i = 0; i < shuffledDeck.length; i++) {
+    let cardElement = document.createElement("button");
+    cardElement.setAttribute("id", `card-${i}`);
+    cardElement.setAttribute("class", "cards-position");
+    cardElement.setAttribute("value", `${i}`);
+    cardElements.push(cardElement);
+    selectionArea.appendChild(cardElement);
+  }
+  
+  cardElements.forEach(function (i) {
+    i.addEventListener("click", function (e) {
+      pickCard(e.target.value);
+    });
   });
-});
-
-for (let i = 0; i < pickedCardsPlaceholders.length; i++) {
-  pickedCardsPlaceholders[i].addEventListener("click", function (e) {
-    turnCard(e.target.parentElement);
+  
+  for (let i = 0; i < pickedCardsPlaceholders.length; i++) {
+    pickedCardsPlaceholders[i].addEventListener("click", function (e) {
+      turnCard(e.target.parentElement);
+    });
+  }
+  
+  drawButton.addEventListener("click", function (e) {
+    setDrawingValues();
   });
+
 }
-
-drawButton.addEventListener("click", function (e) {
-  setDrawingValues();
-});
-
 //#endregion
 
 //#region METHODS
@@ -142,18 +129,15 @@ function turnCard(card) {
     var realCard = cardsPicked[turnCounter];
     console.log(realCard);
     cardsTurned.push(card);
-    // let image = document.createElement("img");
-    // image.src= ;
-    // card.appendChild(image);
-    //card.style = "background-image:url('" + realCard.url + "')";
+    let image = document.createElement("img");
+    image.src= realCard.url;
+    card.appendChild(image);
     card.className += " visible";
     turnCounter++;
   }
 }
 
 function setDrawingValues() {
-  localStorage.exists = true;
-
   localStorage.pastCardName     =  cardsPicked[0].name;
   localStorage.presentCardName  =  cardsPicked[1].name;
   localStorage.adviceCardName   =  cardsPicked[2].name;
@@ -163,7 +147,5 @@ function setDrawingValues() {
   localStorage.presentText = cardsPicked[1].signification.present;
   localStorage.adviceText = cardsPicked[2].signification.advice;
   localStorage.resultText = cardsPicked[3].signification.present;
-
-  console.log(pastCardName);
 }
 //#endregion
