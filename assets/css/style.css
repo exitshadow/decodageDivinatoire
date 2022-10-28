@@ -418,16 +418,17 @@ div.vertical {
   }
 }
 
-.cards a#home{
+.cards a.home,.container-resultat a.home{
     position: absolute;
     width: 60px;
     height: 60px;
     right: 8px; 
 }
 
-.cards img#home{
+.cards img.home, .container-resultat img.home{
     position: absolute;
     width: 41px;
     top: 19px;
     left: 13px;
 }
+
