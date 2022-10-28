@@ -3,23 +3,50 @@
 let referenceDeck; // injecter tous les arcanes depuis le json
 let shuffledDeck; // contenant qui va recevoir toutes les cartes mélangées
 
-// selection des DOM existants
+// selection des DOM existants page tirage
 let pickedCardsPlaceholders = document.getElementsByClassName("card");
 let selectionArea = document.getElementById("selection-area");
+let drawButton = document.getElementById("draw-button");
 
 console.log(pickedCardsPlaceholders);
+
+// seléction des DOM existants page résultat
+
 
 const MAXPICK = 4; // nombre maximum de cartes choisies
 let cardsPicked = []; // liste des cartes tirées par le joueur, objet carte
 let cardsTurned = []; // liste des cartes tournées par le joueur, élément DOM
 let cardElements = []; // liste des cartes tirées par le joueur, element DOM
 
-let isDrawn = false; // état de jeu
-let turnCounter = 0;
+let isDrawn = false; // est-ce que toutes les cartes sont tirées
+let turnCounter = 0; // compteur des cartes retournées
 
 // reinjection de contenus
 let domCardsPickedNames; // objet DOM  pour l’injection des cartes sélectionnées
 let domResultReading; // objet DOM pour l’injection du texte des résultats
+
+//#endregion
+
+//#region persistent variables & game state management
+
+if (typeof(Storage) !== "undefined") {
+  console.log(localStorage.pastCardName);
+} else {
+  alert("hey, your browser doesn’t support session storage, that’s too bad.");
+}
+
+// localStorage.exists;
+// localStorage.restart;
+
+// localStorage.pastCardName;
+// localStorage.presentCardName;
+// localStorage.adviceCardName;
+// localStorage.resultCardName;
+
+// localStorage.pastText;
+// localStorage.presentText;
+// localStorage.adviceText;
+// localStorage.resultText;
 
 //#endregion
 
@@ -48,6 +75,10 @@ for (let i = 0; i < pickedCardsPlaceholders.length; i++) {
     turnCard(e.target.parentElement);
   });
 }
+
+drawButton.addEventListener("click", function (e) {
+  setDrawingValues();
+});
 
 //#endregion
 
@@ -100,56 +131,19 @@ function turnCard(card) {
   }
 }
 
+function setDrawingValues() {
+  localStorage.exists = true;
+
+  localStorage.pastCardName     =  cardsPicked[0].name;
+  localStorage.presentCardName  =  cardsPicked[1].name;
+  localStorage.adviceCardName   =  cardsPicked[2].name;
+  localStorage.resultCardName   =  cardsPicked[3].name;
+
+  localStorage.pastText = cardsPicked[0].signification.past;
+  localStorage.presentText = cardsPicked[1].signification.present;
+  localStorage.adviceText = cardsPicked[2].signification.advice;
+  localStorage.resultText = cardsPicked[3].signification.present;
+
+  console.log(pastCardName);
+}
 //#endregion
-
-function init() {
-  loadJSON(function (response) {
-    referenceDeck = JSON.parse(response);
-  });
-}
-
-function loadJSON(callback) {
-  let xobj = new XMLHttpRequest();
-  xobj.overrideMimeType("application/json");
-  xobj.open("GET", "../assets/data/arcanesMajeurs.json", true);
-  xobj.onreadystatechange = function () {
-    if (xobj.readyState == 4 && xobj.status == "200") {
-      callback(xobj.responseText);
-      console.log("success");
-    }
-  };
-  xobj.send(null);
-}
-
-//Proposition de solution de sauvegarde des data entre page application.html et resultat.html
-// Query solution stackoverflow to implement
-
-// function getParameterByName(name) {
-//     name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
-//     var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
-//         results = regex.exec(location.search);
-//     return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
-// }
-
-// var clicked = getParameterByName('clicked');
-
-
-  /* Storing a stringified array and object to local storage */
-// var cardsPicked; //Je récupère l'array des 4 cartes sélectionnées 
-// localStorage.setItem('storedCards', JSON.stringify(storedCards)) //Je convertis en string Jaaaason mes données js
-
-  /* Parsing back to JavaScript array*/
-// var myFourSavedCards = JSON.parse(localStorage.getItem('storedCards'));
-// console.log(myFourSavedCards); 
-
-  /* Clear all items : localStorage.clear();*/
-
-  /* Note à moi-même : arriver à récupérer dans la page resultat.html :
-//     card1: [index de la carte]["name"]["signification"]["past"] 
-//     card2: [index de la carte]["name"]["signification"]["present"] 
-//     card3: [index de la carte]["name"]["signification"]["advice"] 
-//     card4: [index de la carte]["name"]["signification"]["future"] 
-  */
-
-// https://developer.mozilla.org/fr/docs/Learn/JavaScript/Objects/Basics
-// https://developer.mozilla.org/fr/docs/Learn/JavaScript/Objects/JSON
