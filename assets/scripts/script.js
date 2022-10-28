@@ -38,7 +38,6 @@ let domResultReading; // objet DOM pour l’injection du texte des résultats
 //#endregion
 
 //#region persistent variables & game state management
-
 if (typeof(Storage) !== "undefined") {
   if (resultsElement) {
     pastTitle.innerHTML += localStorage.pastCardName;
@@ -54,20 +53,6 @@ if (typeof(Storage) !== "undefined") {
 } else {
   alert("hey, your browser doesn’t support session storage, that’s too bad.");
 }
-
-// localStorage.exists;
-// localStorage.restart;
-
-// localStorage.pastCardName;
-// localStorage.presentCardName;
-// localStorage.adviceCardName;
-// localStorage.resultCardName;
-
-// localStorage.pastText;
-// localStorage.presentText;
-// localStorage.adviceText;
-// localStorage.resultText;
-
 //#endregion
 
 //#region  PROGRAM
@@ -142,10 +127,9 @@ function turnCard(card) {
     var realCard = cardsPicked[turnCounter];
     console.log(realCard);
     cardsTurned.push(card);
-    // let image = document.createElement("img");
-    // image.src= ;
-    // card.appendChild(image);
-    //card.style = "background-image:url('" + realCard.url + "')";
+    let image = document.createElement("img");
+    image.src= realCard.url;
+    card.appendChild(image);
     card.className += " visible";
     turnCounter++;
   }
