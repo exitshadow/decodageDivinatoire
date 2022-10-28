@@ -5,7 +5,7 @@ let arcanae = {
          "name": "Le Bateleur",
          "number": 1,
          "type": "Majeur",
-         "url": "./urltodefine",
+         "url": "./assets/images/leBateleur.png",
          "signification":
          {
            "past": "Une nouvelle opportunité concernant un projet, une relation vous a permis de vous lancer dans un nouveau départ, une nouvelle vie.",
@@ -19,7 +19,7 @@ let arcanae = {
        "name": "La Papesse",
        "number": 2,
        "type": "Majeur",
-       "url": "./urltodefine",
+       "url": "./assets/images/laPapesse.png",
        "signification":
        {
          "past": "Un moment d’observation dans la patience et/ou isolement ont été nécessaire pour trouver de la paix et plus de richesse intérieure en vous pour mettre en place une nouvelle étape de vie.",
@@ -33,7 +33,7 @@ let arcanae = {
        "name": "L’Impératrice",
        "number": 3,
        "type": "Majeur",
-       "url": "./urltodefine",
+       "url": "./assets/images/imperatrice.png",
        "signification":
        {
          "past": "Grâce à votre intelligence et votre observation des situations, vous avez su faire les bons choix dans le passé. Vous avez appris à être autonome et indépendante.",
@@ -47,7 +47,7 @@ let arcanae = {
        "name": "L’Empereur",
        "number": 4,
        "type": "Majeur",
-       "url": "./urltodefine",
+       "url": "./assets/images/empereur.png",
        "signification":
        {
          "past": "Grâce à votre volonté et votre détermination, vous avez su vous imposer pour atteindre vos objectifs. Vos actions ont porté du succès dans tous les domaines.",
@@ -61,7 +61,7 @@ let arcanae = {
        "name": "Le Pape",
        "number": 5,
        "type": "Majeur",
-       "url": "./urltodefine",
+       "url": "./assets/images/lePape.png",
        "signification":
        {
          "past": "Vous avez évoluée et récolté la reconnaissance que vous méritez dans les projets que vous avez mis en place, vous avez acquis de la maturité et la confiance en vous qui vous ont permis d’atteindre le succès. ",
@@ -75,7 +75,7 @@ let arcanae = {
        "name": "L’Amoureux",
        "number": 6,
        "type": "Majeur",
-       "url": "./urltodefine",
+       "url": "./assets/images/amoureux.png",
        "signification":
        {
          "past": "De mauvais choix ont affecté votre santé émotionnelle, ont provoqué des doutes et des hésitations, vous aviez pu être dévouée au mauvais travail où à la mauvaise personne.",
@@ -89,7 +89,7 @@ let arcanae = {
        "name": "Le Chariot",
        "number": 7,
        "type": "Majeur",
-       "url": "./urltodefine",
+       "url": "./assets/images/leChariot.png",
        "signification":
        {
          "past": "Votre force et votre confiance en vous vous a amené un équilibre et au succès. Un voyage ou une rencontre a pu vous aider à concrétiser un projet, un changement de voie ou même une promotion.",
@@ -103,7 +103,7 @@ let arcanae = {
        "name": "La Justice",
        "number": 8,
        "type": "Majeur",
-       "url": "./urltodefine",
+       "url": "./assets/images/laJustice.png",
        "signification":
        {
          "past": "Un cycle a été terminé, une rupture de contrat a été acté ou annoncé. Vos finances ont pu en être percutées et des choix ont été posées pour une transformation.",
@@ -117,7 +117,7 @@ let arcanae = {
        "name": "L’Hermite",
        "number": 9,
        "type": "Majeur",
-       "url": "./urltodefine",
+       "url": "./assets/images/lHermite.png",
        "signification":
        {
          "past": "Un repli sur soi a été nécessaire avant de se lancer dans un nouveau départ. Cette sagesse acquise lors de votre introspection vous a aidé à être plus impliqué dans vos projets.",
@@ -131,7 +131,7 @@ let arcanae = {
        "name": "La Roue de Fortune",
        "number": 10,
        "type": "Majeur",
-       "url": "./urltodefine",
+       "url": "./assets/images/roueDeLaFortune.png",
        "signification":
        {
          "past": "Vous avez su saisir les opportunités qui vous ont apporté une évolution positive dans tous les domaines. Votre transformation et persévérance ont apporté le succès.",
@@ -145,7 +145,7 @@ let arcanae = {
        "name": "La Force",
        "number": 11,
        "type": "Majeur",
-       "url": "./urltodefine",
+       "url": "./assets/images/laForce.png",
        "signification":
        {
          "past": "Vos remises en question vous ont amené à une maitrise de vous. Cela vous permet d’atteindre la victoire sur vos investissements pour l’avenir.",
@@ -159,7 +159,7 @@ let arcanae = {
        "name": "Le Pendu",
        "number": 12,
        "type": "Majeur",
-       "url": "./urltodefine",
+       "url": "./assets/images/lePendu.png",
        "signification":
        {
          "past": "Une période de repli vous a permis de vous remettre en question et à accepter des changements inévitables. Vous avez pu être spectateur de votre vie au lieu de la vivre.",
@@ -173,7 +173,7 @@ let arcanae = {
        "name": "L’Arcane Sans nom",
        "number": 13,
        "type": "Majeur",
-       "url": "./urltodefine",
+       "url": "./assets/images/arcaneSansNom.png",
        "signification":
        {
          "past": "Vous avez fait le deuil d’une ancienne vie pour vous lancer dans un nouveau départ.",
@@ -187,7 +187,7 @@ let arcanae = {
        "name": "La Tempérance",
        "number": 14,
        "type": "Majeur",
-       "url": "./urltodefine",
+       "url": "./assets/images/temperance.png",
        "signification":
        {
          "past": "Vous avez su trouver des solutions à des situations de vie compliquées suite à des excès et une routine qui ne vous convenais plus. Vous vous êtes réconciliée avec vous-même et gagnez une stabilité relationnelle.",
@@ -201,7 +201,7 @@ let arcanae = {
        "name": "Le Diable",
        "number": 15,
        "type": "Majeur",
-       "url": "./urltodefine",
+       "url": "./assets/images/leDiable.png",
        "signification":
        {
          "past": "texte ici",
@@ -215,7 +215,7 @@ let arcanae = {
        "name": "La Maison-Dieu",
        "number": 16,
        "type": "Majeur",
-       "url": "./urltodefine",
+       "url": "./assets/images/maisonDieu.png",
        "signification":
        {
          "past": "La rupture d’une situation a pu vous bouleverser, vous mettre en situation d’échec. Ce changement radical et soudain à provoquer une crise en vous.  ",
@@ -229,7 +229,7 @@ let arcanae = {
        "name": "L’Étoile",
        "number": 17,
        "type": "Majeur",
-       "url": "./urltodefine",
+       "url": "./assets/images/etoile.png",
        "signification":
        {
          "past": "Une belle construction vous a permise de bâtir une période d’abondance dans tous les domaines, et ce au-delà de vos espérances.",
@@ -243,7 +243,7 @@ let arcanae = {
        "name": "La Lune",
        "number": 18,
        "type": "Majeur",
-       "url": "./urltodefine",
+       "url": "./assets/images/laLune.png",
        "signification":
        {
          "past": "Vous aviez pu vous trouver dans une période de remise en question profonde, des hésitations ont pu vous mettre à fleur de peau et vous déstabiliser.",
@@ -257,7 +257,7 @@ let arcanae = {
        "name": "Le Soleil",
        "number": 19,
        "type": "Majeur",
-       "url": "./urltodefine",
+       "url": "./assets/images/leSoleil.png",
        "signification":
        {
          "past": "texte ici",
@@ -271,7 +271,7 @@ let arcanae = {
        "name": "Le Jugement",
        "number": 20,
        "type": "Majeur",
-       "url": "./urltodefine",
+       "url": "./assets/images/leJugement.png",
        "signification":
        {
          "past": "Des imprévus ont pu vous déstabiliser, vous avez su repartir du bon pied et ça vous a permis de retrouver la joie.",
@@ -285,7 +285,7 @@ let arcanae = {
        "name": "Le Monde",
        "number": 21,
        "type": "Majeur",
-       "url": "./urltodefine",
+       "url": "./assets/images/leMonde.png",
        "signification":
        {
          "past": "Un engagement sincère et durable vous a permis de vous réaliser et d’atteindre le bonheur. De échanges et des communications ont pu vous y mener.",
@@ -296,7 +296,7 @@ let arcanae = {
     },
 
     {
-       "name": "Le Mât",
+       "name": "./assets/images/leMat.png",
        "number": 22,
        "type": "Majeur",
        "url": "./urltodefine",
