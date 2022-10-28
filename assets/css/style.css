@@ -380,4 +380,14 @@ div.vertical {
   #selection-area {
     justify-content: center;
   }
+
+  .box-shadow p{
+    font-size: 0.9em;
+  }
+
+  .container {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
 }
