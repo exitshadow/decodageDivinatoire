@@ -386,6 +386,8 @@ div.vertical {
   }
 
   .container {
+  
+    background-image: url(../images/backgroung-index-fullScreen.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
