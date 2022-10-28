@@ -213,11 +213,17 @@ a.btn-index {
 /*************** PAGE APPLICATION **********/
 /* Div cards */
 
+header img{
+    width: 80px;
+    height: 80px;
+}
+
 div.boardCont {
   display: flex;
   align-items: center;
   justify-content: center;
   height: calc(90vh - 171px);
+  
 }
 
 #board {
@@ -407,4 +413,18 @@ div.vertical {
     background-repeat: no-repeat;
     background-position: center center;
   }
+}
+
+.cards a#home{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    right: 8px; 
+}
+
+.cards img{
+    position: absolute;
+    width: 60px;
+    top: 4px;
+    left: 0px;
 }
